@@ -7,22 +7,20 @@
 **Research Interests:**  
 - Theoretical and mathematical physics, with a focus on phase transitions, universality, and integrable systems  
 - Statistical physics, critical phenomena, and random matrix theory  
-- Applications of machine learning to emergent order in complex systems and biophysics
+- Universality phenomena in machine learning, explained through traditional theoretical physics methodologies
 
 **Education & Scholarships:**  
 - **École Normale Supérieure (ENS), Paris, France**  
   *ICFP (International Centre for Fundamental Physics) Master's Program, 2018–2021*  
-[comment]:  - Awarded ICFP scholarship (full scholarship for two-year master's)
+<!--- Awarded ICFP scholarship (full scholarship for two-year master's) -->
 
 - **Sun Yat-sen University (SYSU), Canton, China**  
   *Bachelor of Physics, 2014–2018*  
-  - Member of the international class of theoretical physics (top 5% students)  
-  - Outstanding student scholarship recipient (top 10% in class, 2016–2017; top 30% in class, 2015–2016)
+  <!--- - Member of the international class of theoretical physics (top 5% students)  
+  - Outstanding student scholarship recipient (top 10% in class, 2016–2017; top 30% in class, 2015–2016) -->
 
 **Research Experience:**  
-- **Intern, Department of Physics, WestLake University, Hangzhou, China (Sept 2024–present)**  
-  - Pursuing theoretical physics research on phase transitions, universality, and integrable models  
-  - Employing advanced statistical and field-theoretic methods, along with computational tools, to probe emergent phenomena in complex physical systems
+- **Intern, Department of Physics, WestLake University, Hangzhou, China (Sept 2024–present)**
 
 - **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (Mar 2023–Aug 2024)**  
   - Focused on explainable machine learning in theoretical and biophysics contexts  
