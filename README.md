@@ -20,8 +20,8 @@
 - **Intern, Department of Physics, WestLake University, Hangzhou, China (2024–present)**
 
 - **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (2023–2024)**  
-  <!--- - Focused on explainable machine learning in theoretical and biophysics contexts -->  
   - Explored phase transitions and universality *via* computational methods
+  - Focused on explainable machine learning in theoretical and biophysics contexts
 
 - **Intern, Songshan Lake Materials Laboratory (SBISC), Dongguan, China (2021–2023)**  
   - Developed a mean-field model for rod magnets in elastic media and studied ferroic switching mechanisms  
