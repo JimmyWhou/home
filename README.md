@@ -11,7 +11,7 @@
 
 **Education & Scholarships:**  
 - **École Normale Supérieure (ENS), Paris, France**  
-  *ICFP (International Centre for Fundamental Physics) Master's Program, 2018–2021*  
+  *ICFP (International Centre for Fundamental Physics) Master's Program, 2018–2020*  
 <!--- Awarded ICFP scholarship (full scholarship for two-year master's) -->
 
 - **Sun Yat-sen University (SYSU), Canton, China**  
