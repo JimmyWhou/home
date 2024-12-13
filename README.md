@@ -1,6 +1,6 @@
 # Jimin Wu
 
-[Website](http://jmywu.com) | [Email](mailto:jaiman.ng@gmail.com) | [Phone](callto:8618819251873)
+[Website](http://jmywu.com) | [Email](jaiman.ng@gmail.com)
 
 ---
 
