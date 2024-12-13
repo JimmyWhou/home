@@ -1,4 +1,4 @@
-# Jimin Wu
+# JaiMan NG (JiMin WU)
 
 ---
 
