@@ -13,8 +13,8 @@
 
 - **Sun Yat-sen University (SYSU), Canton, China**  
   *Bachelor of Physics, 2014–2018*  
-  <!--- - Member of the international class of theoretical physics (top 5% students)  
-  - Outstanding student scholarship recipient (top 10% in class, 2016–2017; top 30% in class, 2015–2016) -->
+  <!--- - Member of the international class of theoretical physics (top 5% students) -->
+  <!--- - Outstanding student scholarship recipient (top 10% in class, 2016–2017; top 30% in class, 2015–2016) -->
 
 **Research Experience:**  
 - **Intern, Department of Physics, WestLake University, Hangzhou, China (Sept 2024–present)**
