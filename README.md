@@ -36,7 +36,7 @@
   <!--- - Courses and notes on general relativity, quantum field theory, and particle physics are available on personal site -->
 
 **Skills:**  
-- **Computational:** Mathematica, Python (scikit-learn, PyTorch), Vim  
+- **Computational:** Mathematica, Python (scikit-learn, PyTorch), Julia, Vim  
 - **Mathematical:** Abstract algebra, representation theory, measure theory, analysis, PDEs in physics, as well as familiarity with algebraic topology and differential geometry
 
 **Publications:**  
