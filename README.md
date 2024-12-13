@@ -5,7 +5,7 @@
 ---
 
 **Research Interests:**  
-- **Theoretical and Mathematical Physics Techniques:** Traditional field theories, Integrable systems, conformal symmetries, and random matrix theory  
+- **Theoretical and Mathematical Physics Techniques:** Traditional field theories, conformal symmetries, integrabilities, and ideas of random matrices  
 - **Phase Transitions and Critical Phenomena:** Universality classes and emergent behaviors in complex systems, elucidated through the methods of theoretical physics
 
 **Education & Scholarships:**  
