@@ -1,7 +1,5 @@
 # Jimin Wu
 
-[Website](http://jmywu.com) | [Email](jaiman.ng@gmail.com)
-
 ---
 
 **Research Interests:**  
