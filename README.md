@@ -17,13 +17,13 @@
   <!--- - Outstanding student scholarship recipient (top 10% in class, 2016–2017; top 30% in class, 2015–2016) -->
 
 **Research Experience:**  
-- **Intern, Department of Physics, WestLake University, Hangzhou, China (Sept 2024–present)**
+- **Intern, Department of Physics, WestLake University, Hangzhou, China (2024–present)**
 
-- **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (Mar 2023–Aug 2024)**  
+- **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (2023–2024)**  
   - Focused on explainable machine learning in theoretical and biophysics contexts  
-  - Explored phase transitions and universality via computational methods
+  - Explored phase transitions and universality _via_ computational methods
 
-- **Intern, Songshan Lake Materials Laboratory (SBISC), Dongguan, China (Sept 2021–Jan 2023)**  
+- **Intern, Songshan Lake Materials Laboratory (SBISC), Dongguan, China (2021–2023)**  
   - Developed a mean-field model for rod magnets in elastic media and studied ferroic switching mechanisms  
   - Assisted as a communication lab advisor, providing theoretical insights in condensed matter and statistical physics
 
@@ -33,7 +33,7 @@
 
 - **Undergraduate Research, SYSU, China (2017–2018)**  
   - Studied modified gravity in Palatini’s formalism and its cosmological implications  
-  - Courses and notes on general relativity, quantum field theory, and particle physics are available on personal site
+  <!--- - Courses and notes on general relativity, quantum field theory, and particle physics are available on personal site -->
 
 **Skills:**  
 - **Computational:** Mathematica, Python (scikit-learn, PyTorch), Vim  
