@@ -3,8 +3,8 @@
 ---
 
 **Research Interests:**  
-- **Theoretical and Mathematical Physics Techniques:** Traditional field theories, conformal symmetries, integrabilities, and ideas of random matrices  
-- **Phase Transitions and Critical Phenomena:** Universality classes and emergent behaviors in complex systems, elucidated through the methods of theoretical physics
+- **Theoretical and Mathematical Physics Techniques:** traditional field theories, conformal symmetries, integrabilities, and ideas of random matrices  
+- **Phase Transitions and Critical Phenomena:** universality classes and emergent behaviors in complex systems, elucidated through the methods of theoretical physics
 
 **Education & Scholarships:**  
 - **École Normale Supérieure (ENS), Paris, France**  
