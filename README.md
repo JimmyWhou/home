@@ -40,8 +40,8 @@
 - **Mathematical:** Abstract algebra, representation theory, measure theory, analysis, PDEs in physics, as well as familiarity with algebraic topology and differential geometry
 
 **Publications:**  
-- Wu, J. *Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.* [arXiv:2206.01811](https://arxiv.org/abs/2206.01811) (2022)  
-- Wu, J., Li, G., Harko, T., & Liang, S.-D. *Palatini formulation of \(f(R,T)\) gravity theory, and its cosmological implications.* Eur. Phys. J. C 78, 1–22 (2018). [Link](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9)
+- Wu, J. [*Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.*](https://arxiv.org/abs/2206.01811) (2022)  
+- Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory, and its cosmological implications.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) Eur. Phys. J. C 78, 1–22 (2018).
 
 ---
 
