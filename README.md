@@ -5,9 +5,8 @@
 ---
 
 **Research Interests:**  
-- Theoretical and mathematical physics, with a focus on phase transitions, universality, and integrable systems  
-- Statistical physics, critical phenomena, and random matrix theory  
-- Universality phenomena in machine learning, explained through traditional theoretical physics methodologies
+- **Theoretical and Mathematical Physics Techniques:** Integrable systems, conformal symmetries, and random matrix theory  
+- **Phase Transitions and Critical Phenomena:** Universality classes and emergent behaviors in complex systems, elucidated through the methods of theoretical physics
 
 **Education & Scholarships:**  
 - **École Normale Supérieure (ENS), Paris, France**  
