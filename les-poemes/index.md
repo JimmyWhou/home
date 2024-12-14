@@ -19,7 +19,6 @@ The following are my translations of some (mostly) English poems many years ago.
 - [婴儿与母 (Mother and Baby)](婴儿与母.md)
 - [我目见路易斯安那一株常青的栎木在生长 (I Saw in Louisiana a Live-Oak Growing)](我目见路易斯安那一株常青的栎木在生长.md)
 - [在人迹罕至的小径 (In Paths Untrodden)](在人迹罕至的小径.md)
-- [在人迹罕至的小径 (朗诵诗)](在人迹罕至的小径.md)
 - [自滚滚人海中 (Out of the Rolling Ocean the Crowd)](自滚滚人海中.md)
 - [思语 (其一, Thought)](思语1.md)
 - [思语 (其二, Thought)](思语2.md)
