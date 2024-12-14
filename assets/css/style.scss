@@ -1,6 +1,6 @@
 ---
 ---
-
+    
 @import "jekyll-theme-minimal";
 
 /* Define all @font-face rules for Ysabeau variations */
@@ -166,7 +166,15 @@
   --body-bg: black;
   --text-color: #FFFFFF;
   --link-color: #359c16;
-  --section-title-color: #359c16;
+  --section-title-color: #FFFFFF; /* Changed from #359c16 to white */
+
+  /* Define hierarchical font sizes for headings */
+  --h1-font-size: 2.5em;
+  --h2-font-size: 2em;
+  --h3-font-size: 1.75em;
+  --h4-font-size: 1.5em;
+  --h5-font-size: 1.25em;
+  --h6-font-size: 1em;
 }
 
 /* Apply fonts */
@@ -196,18 +204,49 @@ a {
   margin-left: 4em; /* Extra large indentation */
 }
 
-/* Style for Section Titles */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--section-title-color); /* Now set to white */
-  /* Optional: Additional styling for section titles */
-  font-size: 1.2em;
-  /* You can add more styles here, such as font-weight, text-decoration, etc. */
+/* Style for Section Titles with Hierarchical Font Sizes */
+h1 {
+  color: var(--section-title-color);
+  font-size: var(--h1-font-size);
+  margin-bottom: 0.5em;
 }
 
-/* If you still use p > strong:only-child for titles, ensure it inherits the white color */
+h2 {
+  color: var(--section-title-color);
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: var(--section-title-color);
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  color: var(--section-title-color);
+  font-size: var(--h4-font-size);
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  color: var(--section-title-color);
+  font-size: var(--h5-font-size);
+  margin-bottom: 0.5em;
+}
+
+h6 {
+  color: var(--section-title-color);
+  font-size: var(--h6-font-size);
+  margin-bottom: 0.5em;
+}
+
+/* If you still use p > strong:only-child for titles, ensure it inherits the white color and hierarchical size */
 p > strong:only-child {
   color: var(--section-title-color);
   font-size: 1.2em;
+  display: block; /* Ensures it behaves like a block element */
+  margin-bottom: 0.5em;
 }
 
 /* Ensure that strong tags inside list items retain default text color */
