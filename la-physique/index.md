@@ -36,7 +36,7 @@ This note is a brief [introduction](../assets/notes/Kitaev Chain.pdf) to the Kit
 
 ### Notes on QFT
 These are some of my notes on, and homework of the QFT course given by Prof. Jean Iliopoulos in SYSU in the summer of 2017 (plus the homework of an M1 and an M2 QFT course in ENS).
-[QFTHW1](../assets/notes/QFTHW01.pdf), [QFTHW2](../assets/notes/QFTHW2.pdf), [QFTHW(ENS)](../assets/notes/QFTHW(ENS).pdf), [QFTHW(2020)](../assets/notes/QFTHW(2020).pdf)
+[QFTHW01](../assets/notes/QFTHW01.pdf), [QFTHW02](../assets/notes/QFTHW02.pdf), [QFTHW(ENS)](../assets/notes/QFTHW(ENS).pdf), [QFTHW(2020)](../assets/notes/QFTHW(2020).pdf)
 
 ___
 
