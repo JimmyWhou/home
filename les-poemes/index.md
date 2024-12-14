@@ -6,7 +6,7 @@ title: Les Poèmes
 The following are my translations of some (mostly) English poems many years ago. Most of the originals are from _Leaves of Grass_ by Walt Whitman. Welcome to read if you enjoy literary translation.
 
 **Poems:**
-- [赛跑者 (The Runner)](https://jmywu.com/%e8%b5%9b%e8%b7%91%e8%80%85-the-runner/)
+- [赛跑者 (The Runner)](赛跑者.md)
 - [便是些根与叶罢 (Roots and Leaves Themselves Alone)](https://jmywu.com/%e4%be%bf%e6%98%af%e4%ba%9b%e6%a0%b9%e4%b8%8e%e5%8f%b6%e7%bd%a2-roots-and-leaves-themselves-alone/)
 - [不只跃动在我瘦骨嶙峋的胸膛 (Not Heaving from My Ribb'd Breast Only)](https://jmywu.com/%e4%b8%8d%e5%8f%aa%e8%b7%83%e5%8a%a8%e5%9c%a8%e6%88%91%e7%98%a6%e9%aa%a8%e5%b6%99%e5%b3%8b%e7%9a%84%e8%83%b8%e8%86%9b-not-heaving-from-my-ribbd-breast-only/)
 - [迟暮 (To Old Age)](https://jmywu.com/%e8%bf%9f%e6%9a%ae-to-old-age/)
