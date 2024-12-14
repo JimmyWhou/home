@@ -23,7 +23,7 @@ The following are my translations of some (mostly) English poems many years ago.
 - [思语 (其一, Thought)](思语1.md)
 - [思语 (其二, Thought)](思语2.md)
 - [思语 (其三, Thought)](思语3.md)
-- [在巴黎地铁站 (In a Station of the Metro)](在巴黎地铁站.md)
+- [在巴黎地鐵站 (In a Station of the Metro)](在巴黎地鐵站.md)
 - [闺思](闺思.md)
 - [唔好意思 (This is Just to Say)](唔好意思.md)
 - [老人与海 (The Old Man and the Sea) 选段试译](老人与海选段试译.md)
