@@ -10,8 +10,8 @@ title: Home
 ---
 
 **Research interests**  
-- **Theoretical and mathematical physics techniques:** Traditional field theories, conformal symmetries, integrable systems, and ideas of random matrices  
-- **Phase transitions and critical phenomena:** Universality classes and emergent behaviours across complex systems of diverse types
+- **Theoretical and mathematical physics techniques:** traditional field theories, conformal symmetries, integrable systems, and ideas of random matrices  
+- **Phase transitions and critical phenomena:** universality classes and emergent behaviours across complex systems of diverse types
 
 **Education**
 - **École Normale Supérieure (ENS), Paris, France**  
