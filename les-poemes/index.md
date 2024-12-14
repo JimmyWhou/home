@@ -7,7 +7,7 @@ The following are my translations of some (mostly) English poems many years ago.
 
 - [赛跑者 (The Runner)](赛跑者.md)
 - [便是些根与叶罢 (Roots and Leaves Themselves Alone)](https://jmywu.com/%e4%be%bf%e6%98%af%e4%ba%9b%e6%a0%b9%e4%b8%8e%e5%8f%b6%e7%bd%a2-roots-and-leaves-themselves-alone/)
-- [不只跃动在我瘦骨嶙峋的胸膛 (Not Heaving from My Ribb'd Breast Only)](https://jmywu.com/%e4%b8%8d%e5%8f%aa%e8%b7%83%e5%8a%a8%e5%9c%a8%e6%88%91%e7%98%a6%e9%aa%a8%e5%b6%99%e5%b3%8b%e7%9a%84%e8%83%b8%e8%86%9b-not-heaving-from-my-ribbd-breast-only/)
+- [不只跃动在我瘦骨嶙峋的胸膛 (Not Heaving from My Ribb'd Breast Only)](不只跃动在我瘦骨嶙峋的胸膛.md)
 - [迟暮 (To Old Age)](https://jmywu.com/%e8%bf%9f%e6%9a%ae-to-old-age/)
 - [当迟暮时分我听说 (When I Heard at the Close of the Day)](https://jmywu.com/%e5%bd%93%e8%bf%9f%e6%9a%ae%e6%97%b6%e5%88%86%e6%88%91%e5%90%ac%e8%af%b4-when-i-heard-at-the-close-of-the-day/)
 - [滑过一切 (Gliding O'er all)](https://jmywu.com/%e6%bb%91%e8%bf%87%e4%b8%80%e5%88%87-gliding-oer-all/)
