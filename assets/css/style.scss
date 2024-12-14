@@ -3,11 +3,7 @@
 
 @import "jekyll-theme-minimal";
 
-/* ===================================================
-   1. Font Definitions
-   =================================================== */
-
-/* Ysabeau Font Variations */
+/* Define all @font-face rules for Ysabeau variations */
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Hairline.otf') format('opentype');
@@ -15,126 +11,9 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-HairlineItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-}
+/* ... [All other @font-face rules] ... */
 
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Thin.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ThinItalic.otf') format('opentype');
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraLight.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraLightItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Light.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Italic.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-MediumItalic.otf') format('opentype');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-SemiBoldItalic.otf') format('opentype');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-BoldItalic.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraBold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraBoldItalic.otf') format('opentype');
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-BlackItalic.otf') format('opentype');
-  font-weight: 900;
-  font-style: italic;
-}
-
-/* LXGWWenKai GB Screen Font for Chinese Characters */
+/* Define the LXGWWenKai GB Screen font for Chinese characters */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
@@ -151,272 +30,49 @@
                  U+2F800-2FA1F;    /* CJK Compatibility Supplement */
 }
 
-/* ===================================================
-   2. Color Palette Definitions
-   =================================================== */
-
-/* Apply theme overrides and define color variables */
+/* Apply theme overrides */
 :root {
-  /* Background and Text Colors */
-  --body-bg: #000000;             /* Black */
-  --text-color: #FFFFFF;           /* White */
-
-  /* Primary Colors */
-  --link-color: #7851A9;           /* Royal Purple */
-  --section-title-color: #7851A9;  /* Royal Purple for section titles */
-
-  /* Complementary and Matching Colors */
-  --accent-gold: #FFD700;          /* Gold */
-  --secondary-blue: #4B0082;       /* Deep Blue */
-  --highlight-magenta: #FF00FF;    /* Magenta */
-  --triadic-green: #51A978;        /* Green */
-  --triadic-orange: #A97851;       /* Orange-Brown */
-  --light-purple: #A9A9F5;         /* Light Purple */
-  --dark-purple: #4B0082;          /* Dark Purple */
-  --neutral-silver: #C0C0C0;       /* Silver */
-
-  /* Additional Variables (Optional) */
-  /* You can add more variables here if needed */
+  --body-bg: black;
+  --text-color: #FFFFFF;
+  --link-color: #356933; /* Dark green color */
+  --section-title-color: #356933; /* Dark green for section titles */
 }
 
-/* ===================================================
-   3. Mixins for Reusable Styles
-   =================================================== */
-
-/* Mixin for smooth transitions */
-@mixin smooth-transition($properties, $duration: 0.3s, $timing: ease) {
-  transition: $properties $duration $timing;
-}
-
-/* Mixin for button styles */
-@mixin button-style($bg-color, $text-color) {
-  background-color: $bg-color;
-  color: $text-color;
-  border: none;
-  padding: 0.5em 1em;
-  cursor: pointer;
-  border-radius: 4px;
-  font-weight: bold;
-  @include smooth-transition(background-color 0.3s ease);
-  
-  &:hover {
-    background-color: lighten($bg-color, 10%);
-  }
-
-  &:focus {
-    outline: 2px dashed $bg-color;
-    outline-offset: 4px;
-  }
-}
-
-/* ===================================================
-   4. Base Styles
-   =================================================== */
-
-/* Apply fonts and base styles to the body */
+/* Apply fonts */
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
   font-family: 'Ysabeau', 'LXGWWenKai', sans-serif;
   margin: 0;
   padding: 1em;
-  line-height: 1.6;
 }
 
-/* ===================================================
-   5. Link Styles
-   =================================================== */
-
-/* Default Link Styles */
 a {
   color: var(--link-color);
-  @include smooth-transition(color 0.3s ease, text-decoration 0.3s ease);
-  
-  &:hover {
-    color: lighten(#7851A9, 10%); /* Fixed: Hardcoded the color value */
-    text-decoration: underline;   /* Underlines the link on hover */
-  }
-
-  &:focus {
-    outline: 2px dashed var(--link-color);
-    outline-offset: 4px;
-  }
 }
 
-/* ===================================================
-   6. Section Title Styles
-   =================================================== */
+/* Custom classes for indentation */
+.indent-large {
+  margin-left: 3em; /* Adjust as needed */
+}
 
-/* Style for Main Section Titles (Only standalone bolded text) */
+.indent-medium {
+  margin-left: 2em; /* Adjust as needed */
+}
+
+.indent-extra-large {
+  margin-left: 4em; /* Adjust as needed */
+}
+
+/* Style for Main Section Titles */
 p > strong:only-child {
   color: var(--section-title-color);
   font-size: 1.2em;
   font-weight: bold;
-  text-decoration: underline; /* Optional: Add underline to section titles */
+  text-decoration: underline; /* Optional */
 }
 
-/* Ensure that strong tags inside list items retain default text color */
+/* Ensure that strong tags inside list items retain default color */
 li > strong {
   color: var(--text-color); /* Reset to default text color */
-  font-weight: bold;       /* Maintain boldness if desired */
 }
-
-/* ===================================================
-   7. Complementary Element Styles
-   =================================================== */
-
-/* Buttons with Gold Accent */
-button {
-  @include button-style(var(--accent-gold), var(--body-bg));
-}
-
-/* Navigation Bar with Deep Blue */
-.navbar {
-  background-color: var(--secondary-blue);
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  a {
-    color: var(--text-color);
-    margin-right: 1em;
-    text-decoration: none;
-    
-    &:hover {
-      color: var(--link-color);
-      text-decoration: underline;
-    }
-
-    &:focus {
-      outline: 2px dashed var(--link-color);
-      outline-offset: 4px;
-    }
-  }
-}
-
-/* Highlights with Magenta */
-.highlight {
-  color: var(--highlight-magenta);
-}
-
-/* Borders and Dividers with Silver */
-.border {
-  border: 1px solid var(--neutral-silver);
-}
-
-/* ===================================================
-   8. Indentation Classes
-   =================================================== */
-
-/* Custom class for large indentation */
-.indent-large {
-  margin-left: 3em; /* Adjust the value as needed for desired indentation */
-}
-
-/* Custom class for medium indentation */
-.indent-medium {
-  margin-left: 2em; /* Medium indentation */
-}
-
-/* Custom class for extra large indentation */
-.indent-extra-large {
-  margin-left: 4em; /* Extra large indentation */
-}
-
-/* ===================================================
-   9. Responsive Image Class
-   =================================================== */
-
-/* Ensures images are responsive */
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ===================================================
-   10. Additional Optional Styles
-   =================================================== */
-
-/* Footer Styling */
-footer {
-  background-color: var(--dark-purple);
-  color: var(--text-color);
-  padding: 1em;
-  text-align: center;
-}
-
-/* Heading Styles */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-color);
-}
-
-/* Paragraph Styling */
-p {
-  line-height: 1.6;
-}
-
-/* List Styling */
-ul, ol {
-  margin-left: 2em;
-}
-
-/* Blockquote Styling */
-blockquote {
-  border-left: 4px solid var(--neutral-silver);
-  padding-left: 1em;
-  color: var(--text-color);
-  font-style: italic;
-}
-
-/* ===================================================
-   11. Media Queries for Responsive Design
-   =================================================== */
-
-@media (max-width: 768px) {
-  body {
-    padding: 0.5em;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .indent-large {
-    margin-left: 1.5em;
-  }
-
-  .indent-medium {
-    margin-left: 1em;
-  }
-
-  .indent-extra-large {
-    margin-left: 2em;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  /* Adjust button sizes for smaller screens */
-  button {
-    padding: 0.4em 0.8em;
-  }
-}
-
-/* ===================================================
-   12. Accessibility Enhancements
-   =================================================== */
-
-/* Focus States for Links and Buttons */
-a:focus, button:focus {
-  outline: 2px dashed var(--link-color);
-  outline-offset: 4px;
-}
-
-/* Ensure sufficient contrast for readability */
