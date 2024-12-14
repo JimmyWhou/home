@@ -180,7 +180,37 @@
 }
 
 /* ===================================================
-   3. Base Styles
+   3. Mixins for Reusable Styles
+   =================================================== */
+
+/* Mixin for smooth transitions */
+@mixin smooth-transition($properties, $duration: 0.3s, $timing: ease) {
+  transition: $properties $duration $timing;
+}
+
+/* Mixin for button styles */
+@mixin button-style($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  @include smooth-transition(background-color 0.3s ease);
+  
+  &:hover {
+    background-color: lighten($bg-color, 10%);
+  }
+
+  &:focus {
+    outline: 2px dashed $bg-color;
+    outline-offset: 4px;
+  }
+}
+
+/* ===================================================
+   4. Base Styles
    =================================================== */
 
 /* Apply fonts and base styles to the body */
@@ -190,26 +220,31 @@ body {
   font-family: 'Ysabeau', 'LXGWWenKai', sans-serif;
   margin: 0;
   padding: 1em;
+  line-height: 1.6;
 }
 
 /* ===================================================
-   4. Link Styles
+   5. Link Styles
    =================================================== */
 
 /* Default Link Styles */
 a {
   color: var(--link-color);
-  transition: color 0.3s ease, text-decoration 0.3s ease;
-}
+  @include smooth-transition(color 0.3s ease, text-decoration 0.3s ease);
+  
+  &:hover {
+    color: lighten(var(--link-color), 10%); /* Lightens the link color by 10% on hover */
+    text-decoration: underline;            /* Underlines the link on hover */
+  }
 
-/* Link Hover Effects */
-a:hover {
-  color: lighten(var(--link-color), 10%); /* Lightens the link color by 10% on hover */
-  text-decoration: underline;            /* Underlines the link on hover */
+  &:focus {
+    outline: 2px dashed var(--link-color);
+    outline-offset: 4px;
+  }
 }
 
 /* ===================================================
-   5. Section Title Styles
+   6. Section Title Styles
    =================================================== */
 
 /* Style for Main Section Titles (Only standalone bolded text) */
@@ -227,23 +262,12 @@ li > strong {
 }
 
 /* ===================================================
-   6. Complementary Element Styles
+   7. Complementary Element Styles
    =================================================== */
 
 /* Buttons with Gold Accent */
 button {
-  background-color: var(--accent-gold);
-  color: var(--body-bg); /* Assuming button text is black */
-  border: none;
-  padding: 0.5em 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-radius: 4px; /* Rounded corners */
-  font-weight: bold;
-}
-
-button:hover {
-  background-color: lighten(var(--accent-gold), 10%);
+  @include button-style(var(--accent-gold), var(--body-bg));
 }
 
 /* Navigation Bar with Deep Blue */
@@ -253,17 +277,22 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  
+  a {
+    color: var(--text-color);
+    margin-right: 1em;
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--link-color);
+      text-decoration: underline;
+    }
 
-.navbar a {
-  color: var(--text-color);
-  margin-right: 1em;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: var(--link-color);
-  text-decoration: underline;
+    &:focus {
+      outline: 2px dashed var(--link-color);
+      outline-offset: 4px;
+    }
+  }
 }
 
 /* Highlights with Magenta */
@@ -277,7 +306,7 @@ button:hover {
 }
 
 /* ===================================================
-   7. Indentation Classes
+   8. Indentation Classes
    =================================================== */
 
 /* Custom class for large indentation */
@@ -296,7 +325,7 @@ button:hover {
 }
 
 /* ===================================================
-   8. Responsive Image Class
+   9. Responsive Image Class
    =================================================== */
 
 /* Ensures images are responsive */
@@ -306,10 +335,10 @@ button:hover {
 }
 
 /* ===================================================
-   9. Additional Optional Styles
+   10. Additional Optional Styles
    =================================================== */
 
-/* Example: Footer Styling */
+/* Footer Styling */
 footer {
   background-color: var(--dark-purple);
   color: var(--text-color);
@@ -317,22 +346,22 @@ footer {
   text-align: center;
 }
 
-/* Example: Heading Styles */
+/* Heading Styles */
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
 
-/* Example: Paragraph Styling */
+/* Paragraph Styling */
 p {
   line-height: 1.6;
 }
 
-/* Example: List Styling */
+/* List Styling */
 ul, ol {
   margin-left: 2em;
 }
 
-/* Example: Blockquote Styling */
+/* Blockquote Styling */
 blockquote {
   border-left: 4px solid var(--neutral-silver);
   padding-left: 1em;
@@ -341,7 +370,47 @@ blockquote {
 }
 
 /* ===================================================
-   10. Accessibility Enhancements
+   11. Media Queries for Responsive Design
+   =================================================== */
+
+@media (max-width: 768px) {
+  body {
+    padding: 0.5em;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .indent-large {
+    margin-left: 1.5em;
+  }
+
+  .indent-medium {
+    margin-left: 1em;
+  }
+
+  .indent-extra-large {
+    margin-left: 2em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* Adjust button sizes for smaller screens */
+  button {
+    padding: 0.4em 0.8em;
+  }
+}
+
+/* ===================================================
+   12. Accessibility Enhancements
    =================================================== */
 
 /* Focus States for Links and Buttons */
