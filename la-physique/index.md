@@ -37,3 +37,6 @@ ___
 This [report](../assets/notes/Notes on Tracer Diffusion.pdf) was written during a two-month internship in Sorbonne Université in 2020.
 
 ___
+
+## Algebraic Bethe Ansatz in Spin-1/2 XXX Model
+This [report](..assets/notes/Algebraic Bethe Ansatz in Spin-1:2 XXX-Model.pdf) was written during my second-semester internship in LPTENS in 2019.
