@@ -40,3 +40,5 @@ ___
 
 ## Algebraic Bethe Ansatz in Spin-1/2 XXX Model
 This [report](..assets/notes/Algebraic Bethe Ansatz in Spin-1:2 XXX-Model.pdf) was written during my second-semester internship in LPTENS in 2019.
+
+___
