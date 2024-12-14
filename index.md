@@ -10,22 +10,24 @@ title: Home
 ---
 
 **Research Interests**  
-- **Theoretical and mathematical physics techniques:** traditional field theories, conformal symmetries, integrabilities, and ideas of random matrices  
-- **Phase transitions and critical phenomena:** universality classes and emergent behaviors across complex systems of diverse types
+- **Theoretical and mathematical physics techniques:** traditional field theories, conformal symmetries, integrable systems, and ideas of random matrices  
+- **Phase transitions and critical phenomena:** universality classes and emergent behaviours across complex systems of diverse types
 
-**Education & Scholarships**  
+**Education**  
 - **École Normale Supérieure (ENS), Paris, France**  
-  *ICFP (International Centre for Fundamental Physics) Master's Program, 2018–2020*  
+  *ICFP (International Centre for Fundamental Physics) Master's Program, 2018–2020*
+  *(Full Scholarship)* 
 - **Sun Yat-sen University (SYSU), Canton, China**  
-  *Bachelor of Physics, 2014–2018*  
+  *Bachelor of Physics, 2014–2018*
+  *(Merit-Based Scholarship)*
 
-**Research Experience**  
-- **Intern, Department of Physics, WestLake University, Hangzhou, China (2024–present)**
+**Experience**  
+- **Intern, WestLake University, Hangzhou, China (2024–present)**
 - **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (2023–2024)**  
-  - Explored phase transitions and universality *via* computational methods
-  - Focused on explainable machine learning in theoretical and biophysics contexts
+  - Investigated phase transitions and universality *via* computational methods
+  - Developed explainable machine learning in theoretical and biophysics contexts
 - **Intern, Songshan Lake Materials Laboratory (SBISC), Dongguan, China (2021–2023)**  
-  - Developed a mean-field model for rod magnets in elastic media and studied ferroic switching mechanisms  
+  - Developed a mean-field model for rod magnets in elastic media and studied ferroic switching mechanisms
   - Assisted as a communication lab advisor, providing theoretical insights in condensed matter and statistical physics
 - **Master's Internships, ENS Paris, France**  
   - Bethe ansatz approach in spin-1/2 XXX models (Spring & Summer 2019)  
@@ -42,5 +44,3 @@ title: Home
 - Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) Eur. Phys. J. C 78, 1–22 (2018).
 
 ---
-
-For more details, notes, and reports, please visit [jmywu.com](http://jmywu.com).
