@@ -161,25 +161,12 @@
                  U+2F800-2FA1F;    /* CJK Compatibility Supplement */
 }
 
-/* Apply theme overrides and define color variables */
+/* Apply theme overrides */
 :root {
-  /* Background and Text Colors */
-  --body-bg: #000000;             /* Black */
-  --text-color: #FFFFFF;           /* White */
-
-  /* Primary Colors */
-  --link-color: #7851A9;           /* Royal Purple */
-  --section-title-color: #7851A9;  /* Royal Purple for section titles */
-
-  /* Complementary and Matching Colors */
-  --accent-gold: #FFD700;          /* Gold */
-  --secondary-blue: #4B0082;       /* Deep Blue */
-  --highlight-magenta: #FF00FF;    /* Magenta */
-  --triadic-green: #51A978;        /* Green */
-  --triadic-orange: #A97851;       /* Orange-Brown */
-  --light-purple: #A9A9F5;         /* Light Purple */
-  --dark-purple: #4B0082;          /* Dark Purple */
-  --neutral-silver: #C0C0C0;       /* Silver */
+  --body-bg: black;
+  --text-color: #FFFFFF;
+  --link-color: #356933; /* Changed from limegreen to #356933 */
+  --section-title-color: #356933; /* New variable for section titles */
 }
 
 /* Apply fonts */
