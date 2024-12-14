@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+OsF:wght@400;700&display=swap');
+---
+---
+@import "jekyll-theme-minimal";
+
+/* Now, override styles below */
+:root {
+  --body-bg: black;
+  --text-color: #FFFFFF; /* set text to white for contrast */
+  --link-color: limegreen;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+body {
+  font-family: 'Ysabeau OsF', sans-serif;
+}
