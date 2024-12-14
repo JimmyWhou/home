@@ -166,7 +166,7 @@
   --body-bg: black;
   --text-color: #FFFFFF;
   --link-color: #359c16;
-  --section-title-color: #359c16;
+  --section-title-color: #FFFFFF; /* Changed from #359c16 to white */
 }
 
 /* Apply fonts */
@@ -197,15 +197,20 @@ a {
 }
 
 /* Style for Section Titles */
-p > strong:only-child {
-  color: var(--section-title-color);
+h1, h2, h3, h4, h5, h6 {
+  color: var(--section-title-color); /* Now set to white */
   /* Optional: Additional styling for section titles */
   font-size: 1.2em;
   /* You can add more styles here, such as font-weight, text-decoration, etc. */
 }
 
-/* Ensure that strong tags inside list items retain default color */
+/* If you still use p > strong:only-child for titles, ensure it inherits the white color */
+p > strong:only-child {
+  color: var(--section-title-color);
+  font-size: 1.2em;
+}
+
+/* Ensure that strong tags inside list items retain default text color */
 li > strong {
-  color: var(--text-color); /* Reset to default text color */
-  /* Optional: Remove any unwanted styles */
+  color: var(--text-color); /* Already set to white */
 }
