@@ -45,4 +45,4 @@ title: Home
 
 ---
 
-For more details, notes, and course reports, please visit [La physique](/portfolio/la-physique/).
+For more detailed notes, and course reports, please visit [La physique](/portfolio/la-physique/).
