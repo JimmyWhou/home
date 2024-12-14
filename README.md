@@ -37,7 +37,7 @@
 
 **Skills:**  
 - **Computational:** Mathematica, Python (scikit-learn, PyTorch), Vim  
-- **Mathematical:** Abstract algebra, representation theory, measure theory, analysis, PDEs in physics, as well as familiarity with algebraic topology and differential geometry
+- **Mathematical:** Abstract algebra, representation theory, measure theory, analysis, PDEs in physics, as well as familiarity with differential geometry and Lie theory
 
 **Publications:**  
 - Wu, J. [*Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.*](https://arxiv.org/abs/2206.01811) (2022)  
