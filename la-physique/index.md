@@ -24,7 +24,7 @@ ___
 ___
 
 ## Wigner's Theorem
-A brief proof of [Wigner's Theorem](../assets/notes/Wigner's_Theorem.pdf) following Weinberg's QFT I.
+A brief proof of [Wigner's Theorem](../assets/notes/Wigner's Theorem.pdf) following Weinberg's QFT I.
 
 ___
 
