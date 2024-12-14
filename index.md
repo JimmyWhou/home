@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# JaiMan NG
-
 **Table of Contents**
 - [Les poèmes](/portfolio/les-poemes/)
 - [La physique](/portfolio/la-physique/)
