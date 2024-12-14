@@ -9,17 +9,17 @@ title: Home
 
 ---
 
-**Research Interests:**  
-- **Theoretical and Mathematical Physics Techniques:** traditional field theories, conformal symmetries, integrabilities, and ideas of random matrices  
-- **Phase Transitions and Critical Phenomena:** universality classes and emergent behaviors across complex systems of diverse types
+**Research Interests**  
+- **Theoretical and mathematical physics techniques:** traditional field theories, conformal symmetries, integrabilities, and ideas of random matrices  
+- **Phase transitions and critical phenomena:** universality classes and emergent behaviors across complex systems of diverse types
 
-**Education & Scholarships:**  
+**Education & Scholarships**  
 - **École Normale Supérieure (ENS), Paris, France**  
   *ICFP (International Centre for Fundamental Physics) Master's Program, 2018–2020*  
 - **Sun Yat-sen University (SYSU), Canton, China**  
   *Bachelor of Physics, 2014–2018*  
 
-**Research Experience:**  
+**Research Experience**  
 - **Intern, Department of Physics, WestLake University, Hangzhou, China (2024–present)**
 - **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (2023–2024)**  
   - Explored phase transitions and universality *via* computational methods
@@ -33,11 +33,11 @@ title: Home
 - **Undergraduate Research, SYSU, China (2017–2018)**  
   - Studied modified gravity in Palatini’s formalism and its cosmological implications
 
-**Skills:**  
+**Skills**  
 - **Computational:** Mathematica, Python (scikit-learn, PyTorch), Vim  
 - **Mathematical:** Abstract algebra, representation theory, measure theory, analysis, PDEs, differential geometry, Lie theory
 
-**Publications:**  
+**Publications**  
 - Wu, J. [*Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.*](https://arxiv.org/abs/2206.01811) (2022)  
 - Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) Eur. Phys. J. C 78, 1–22 (2018).
 
