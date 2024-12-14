@@ -3,17 +3,17 @@ layout: default
 title: Home
 ---
 
-## **Featured contents**
+**Featured contents**
 - [Les poèmes](les-poemes/)
 - [La physique](la-physique/)
 
 ---
 
-## **Research interests**  
+**Research interests**  
 - **Theoretical and mathematical physics techniques:** Traditional field theories, conformal symmetries, integrable systems, and ideas of random matrices  
 - **Phase transitions and critical phenomena:** Universality classes and emergent behaviours across complex systems of diverse types
 
-## **Education**
+**Education**
 - **École Normale Supérieure (ENS), Paris, France**  
   *ICFP (International Centre for Fundamental Physics) Master's programme, 2018–2020*  
   *(Full scholarship)* 
@@ -22,7 +22,7 @@ title: Home
   *Bachelor of Physics, 2014–2018*  
   *(Merit-based scholarship)*
 
-## **Experience**
+**Experience**
 - **Intern, WestLake University, Hangzhou, China (2024–present)**
 
 - **Intern, Shenzhen Institute of Advanced Technology (SIAT), China (2023–2024)**  
@@ -40,14 +40,14 @@ title: Home
 - **Undergraduate research, SYSU, China (2017–2018)**  
   - Studied modified gravity in Palatini’s formalism and its cosmological implications [^2]
 
-## **Skills**
+**Skills**
 - **Computational:** Mathematica, Python (scikit-learn, PyTorch), Vim  
 - **Mathematical:** Abstract algebra, representation theory, measure theory, analysis, PDEs, differential geometry, Lie theory
-
-## **Publications**
-[^1]: Wu, J. [*Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.*](https://arxiv.org/abs/2206.01811) (2022)  
-[^2]: Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) *Eur. Phys. J. C* **78**, 1–22 (2018).
 
 ---
 
 For more detailed notes and course reports, please visit [La physique](/portfolio/la-physique/).
+
+**Publications**
+[^1]: Wu, J. [*Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.*](https://arxiv.org/abs/2206.01811) (2022)  
+[^2]: Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) *Eur. Phys. J. C* **78**, 1–22 (2018).
