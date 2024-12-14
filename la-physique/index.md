@@ -29,7 +29,7 @@ A brief proof of [Wigner's Theorem](../assets/notes/Wigner's_Theorem.pdf) follow
 ___
 
 ## Notes on Network Capacity
-An incomplete note of [Gardner's Volume](../assets/notes/Notes_on_Gardner's_Volume.pdf).
+An incomplete note of [Gardner's Volume](../assets/notes/Notes on Gardner's Volume.pdf).
 
 ___
 
