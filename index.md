@@ -6,8 +6,8 @@ title: Home
 # JaiMan NG
 
 **Table of Contents**
-- [Les poèmes](/les-poemes/)  
-- [La physique](/la-physique/)
+- [Les poèmes](/portfolio/les-poemes/)
+- [La physique](/portfolio/la-physique/)
 
 ---
 
