@@ -4,6 +4,11 @@ title: La Physique
 ---
 # La Physique
 
+{:toc}
+
+## Caveat
+I am too lazy to correct the notes written years ago; please use them with caution. It is free to read the documents available, but please do not forward or distribute them to anyone. Thanks a lot!
+
 ## Elements of Measures
 [Note](../assets/notes/Measures.pdf) on Measure and Integration.
 
@@ -13,3 +18,6 @@ title: La Physique
 
 ## Wigner's Theorem
 A brief proof of [Wigner's Theorem](../assets/notes/Wigner's_Theorem.pdf) following Weinberg's QFT I.
+
+## Notes on Network Capacity
+An incomplete note of [Gardner's Volume](../assets/notes/Notes_on_Gardner's_Volume.pdf).
