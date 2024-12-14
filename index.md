@@ -5,7 +5,7 @@ title: Home
 
 # JaiMan NG
 
-Here are two main categories:
+**Table of Contents**
 - [Les poèmes](/les-poemes/)  
 - [La physique](/la-physique/)
 
