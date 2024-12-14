@@ -1,21 +1,162 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+OsF:wght@400;700&display=swap');
 @import "jekyll-theme-minimal";
 
-/* Override default theme variables and styles */
+/* Define all @font-face rules for Ysabeau variations */
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Hairline.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-HairlineItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Thin.otf') format('opentype');
+  font-weight: 100; /* Same as Hairline due to limited increments */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('/portfolio/assets/fonts/Ysabeau-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Apply theme overrides */
 :root {
   --body-bg: black;
   --text-color: #FFFFFF;
   --link-color: limegreen;
 }
 
-/* Apply custom styles */
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'Ysabeau OsF', sans-serif;
+  font-family: 'Ysabeau', sans-serif;
+  margin: 0;
+  padding: 1em;
 }
 
 a {
