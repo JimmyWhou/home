@@ -1,6 +1,6 @@
 ---
 ---
- 
+
 @import "jekyll-theme-minimal";
 
 /* Define all @font-face rules for Ysabeau variations */
@@ -197,9 +197,15 @@ a {
 }
 
 /* Style for Section Titles */
-p > strong:only-child,
-li > strong {
+p > strong:only-child {
   color: var(--section-title-color);
   /* Optional: Additional styling for section titles */
   font-size: 1.2em;
+  /* You can add more styles here, such as font-weight, text-decoration, etc. */
+}
+
+/* Ensure that strong tags inside list items retain default color */
+li > strong {
+  color: var(--text-color); /* Reset to default text color */
+  /* Optional: Remove any unwanted styles */
 }
