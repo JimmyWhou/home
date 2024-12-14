@@ -23,13 +23,13 @@ ___
 
 ___
 
-## Wigner's Theorem
-A brief proof of [Wigner's Theorem](../assets/notes/Wigner's Theorem.pdf) following Weinberg's QFT I.
+## Notes on Gardner’s Volume
+An incomplete [note](../assets/notes/Notes on Network Capacity.pdf) of Gardner's Volume.
 
 ___
 
-## Notes on Network Capacity
-An incomplete note of [Gardner's Volume](../assets/notes/Notes on Network Capacity.pdf).
+## Wigner's Theorem
+A brief [proof](../assets/notes/Wigner's Theorem.pdf) of Wigner's Theorem following Weinberg's QFT I.
 
 ___
 
