@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## **Featured contents**
-- [Les poèmes](les-poemes/) (miscellanea adelesent)
+- [Les poèmes](les-poemes/) (miscellanea adolescent)
 - [La physique](la-physique/) (detailed notes and course reports)
 
 ---
