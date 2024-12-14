@@ -1,3 +1,9 @@
 title: JaiMan NG
 logo: /assets/images/DPhy-ENS.pdf
+baseurl: "/portfolio" # Base URL for your site
+url: "https://JimmyWhou.github.io" # Your GitHub Pages URL
 theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+  input: GFM
