@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-**Table of Contents**
+**Featured Categories**
 - [Les poèmes](/portfolio/les-poemes/)
 - [La physique](/portfolio/la-physique/)
 
