@@ -26,10 +26,13 @@ An incomplete [note](../assets/notes/Notes on Network Capacity.pdf) of Gardner's
 A brief [proof](../assets/notes/Wigner's Theorem.pdf) of Wigner's Theorem following Weinberg's QFT I.
 
 ### Notes on Tracer Diffusion
-This [report](../assets/notes/Notes on Tracer Diffusion.pdf) was written during a two-month internship in Sorbonne Université in 2020.
+A [report](../assets/notes/Notes on Tracer Diffusion.pdf) was written during a two-month internship in Sorbonne Université in 2020.
 
 ### Algebraic Bethe Ansatz in Spin-1/2 XXX Model
-This [report](..assets/notes/Bethe Ansatz.pdf) was written during my second-semester internship in LPTENS in 2019.
+A [report](..assets/notes/Bethe Ansatz.pdf) written during my 2nd-semester internship in LPTENS in 2019.
+
+### Group Theory and the Renormalization Group in the \(\epsilon\)-Expansion
+A [report](../assets/notes/Group_Theory_and_the_Renormalization_Group_in_the_Epsilon_Expansion.pdf) completed during my 1st-semester library-based project at LPTENS in 2019, utilizing reading materials provided by Prof. Slava Rychkov.
 
 ### Palatini \(f(R,T)\) Gravity
 [Palatini formulation of \(f(R,T)\) gravity theory.](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9)
