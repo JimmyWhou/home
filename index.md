@@ -44,3 +44,5 @@ title: Home
 - Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) Eur. Phys. J. C 78, 1–22 (2018).
 
 ---
+
+For more details, notes, and reports, please visit [La physique](/portfolio/la-physique/).
