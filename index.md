@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## **Featured contents**
+**Featured contents**
 - [Les poèmes](les-poemes/) (miscellanea adolescent)
 - [La physique](la-physique/) (detailed notes and course reports)
 
