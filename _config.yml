@@ -7,3 +7,5 @@ theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
   input: GFM
+
+quote: "You've gotta sing like no one is listening, love like you've never been hurt, dance like no one is watching, & live like it is heaven on earth."
