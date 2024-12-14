@@ -5,7 +5,7 @@ title: La Physique
 # La Physique
 
 ## Elements of Measures
-[Note on Measure and Integration](https://jmywu.com/wp-content/uploads/2024/03/Measures.pdf)
+[Note](https://jmywu.com/wp-content/uploads/2024/03/Measures.pdf) on Measure and Integration.
 
 ## Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit
 
