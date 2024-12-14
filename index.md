@@ -41,3 +41,5 @@ title: Home
 
 [^1]: Wu, J. [*Rod magnets inscribed in an elastic cuboid: interpreting single-domain ferroics in Onsager's spirit.*](https://arxiv.org/abs/2206.01811) (2022)  
 [^2]: Wu, J., Li, G., Harko, T., & Liang, S.-D. [*Palatini formulation of \(f(R,T)\) gravity theory.*](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9) *Eur. Phys. J. C* **78**, 1–22 (2018).
+
+---
