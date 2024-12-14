@@ -34,6 +34,10 @@ A [report](../assets/notes/Group_Theory_and_the_Renormalization_Group_in_the_Eps
 ### Kitaev Chain
 This note is a brief [introduction](../assets/notes/Kitaev Chain.pdf) to the Kitaev Chain.
 
+### Notes on QFT
+These are some of my notes on, and homework of the QFT course given by Prof. Jean Iliopoulos in SYSU in the summer of 2017 (plus the homework of an M1 and an M2 QFT course in ENS).
+[QFTHW1](../assets/notes/QFTHW1.pdf), [QFTHW2](../assets/notes/QFTHW2.pdf), [QFTHW(ENS)](../assets/notes/QFTHW(ENS).pdf), [QFTHW(2020)](../assets/notes/QFTHW(2020).pdf)
+
 ___
 
 **Caveat**  I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
