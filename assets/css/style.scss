@@ -1,6 +1,6 @@
 ---
 ---
-
+ 
 @import "jekyll-theme-minimal";
 
 /* Define all @font-face rules for Ysabeau variations */
@@ -151,19 +151,25 @@
   font-weight: normal;
   font-style: normal;
   /* Unicode ranges for Chinese characters */
-  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
+  unicode-range: U+4E00-9FFF,      /* Basic CJK Unified Ideographs */
+                 U+3400-4DBF,      /* CJK Extension A */
+                 U+20000-2A6DF,    /* CJK Extension B */
+                 U+2A700-2B73F,    /* CJK Extension C */
+                 U+2B740-2B81F,    /* CJK Extension D */
+                 U+2B820-2CEAF,    /* CJK Extension E */
+                 U+F900-FAFF,      /* CJK Compatibility Ideographs */
+                 U+2F800-2FA1F;    /* CJK Compatibility Supplement */
 }
 
 /* Apply theme overrides */
 :root {
   --body-bg: black;
   --text-color: #FFFFFF;
-  --link-color: limegreen;
+  --link-color: #356933; /* Changed from limegreen to #356933 */
+  --section-title-color: #356933; /* New variable for section titles */
 }
 
-/* The body uses Ysabeau as its main font. Due to the unicode-range property,
-   LXGWWenKai will be used automatically for Chinese characters because Ysabeau
-   doesn't cover those glyphs, prompting the browser to pick them from LXGWWenKai. */
+/* Apply fonts */
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
@@ -174,4 +180,26 @@ body {
 
 a {
   color: var(--link-color);
+}
+
+/* Custom class for large indentation */
+.indent-large {
+  margin-left: 3em; /* Adjust the value as needed for desired indentation */
+}
+
+/* Optional: Additional indentation classes */
+.indent-medium {
+  margin-left: 2em; /* Medium indentation */
+}
+
+.indent-extra-large {
+  margin-left: 4em; /* Extra large indentation */
+}
+
+/* Style for Section Titles */
+p > strong:only-child,
+li > strong {
+  color: var(--section-title-color);
+  /* Optional: Additional styling for section titles */
+  font-size: 1.2em;
 }
