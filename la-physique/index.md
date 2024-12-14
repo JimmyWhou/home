@@ -4,12 +4,12 @@ title: La Physique
 ---
 # La Physique
 
-___
+===
 
 ## Caveat
 I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
 
-___
+===
 
 ## Elements of Measures
 [Note](../assets/notes/Measures.pdf) on Measure and Integration.
