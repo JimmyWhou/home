@@ -6,12 +6,6 @@ title: La Physique
 
 ---
 
-### Caveat
-
-I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
-
-___
-
 ### Elements of Measures
 [Note](../assets/notes/Measures.pdf) on Measure and Integration.
 
@@ -40,3 +34,6 @@ A [report](../assets/notes/Group_Theory_and_the_Renormalization_Group_in_the_Eps
 ### Kitaev Chain
 This note is a brief [introduction](../assets/notes/Kitaev Chain.pdf) to the Kitaev Chain.
 
+___
+**Caveat**
+I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
