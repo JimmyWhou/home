@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Thin.otf') format('opentype');
-  font-weight: 100; /* Same as Hairline due to limited increments */
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -144,17 +144,30 @@
   font-style: italic;
 }
 
+/* Define the LXGWWenKai GB Screen font for Chinese characters */
+@font-face {
+  font-family: 'LXGWWenKai';
+  src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  /* Unicode ranges for Chinese characters */
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
+}
+
 /* Apply theme overrides */
 :root {
   --body-bg: black;
   --text-color: #FFFFFF;
-  --link-color: #356933;
+  --link-color: limegreen;
 }
 
+/* The body uses Ysabeau as its main font. Due to the unicode-range property,
+   LXGWWenKai will be used automatically for Chinese characters because Ysabeau
+   doesn't cover those glyphs, prompting the browser to pick them from LXGWWenKai. */
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'Ysabeau', sans-serif;
+  font-family: 'Ysabeau', 'LXGWWenKai', sans-serif;
   margin: 0;
   padding: 1em;
 }
