@@ -42,3 +42,6 @@ ___
 This [report](..assets/notes/Algebraic Bethe Ansatz in Spin-1:2 XXX-Model.pdf) was written during my second-semester internship in LPTENS in 2019.
 
 ___
+
+## Palatini $f(R, T)$ Gravity
+[Palatini formulation of $f(R, T)$ gravity theory, and its cosmological implications](https://link.springer.com/article/10.1140/epjc/s10052-018-5923-9)
