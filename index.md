@@ -5,7 +5,7 @@ title: Home
 
 ## **Featured contents**
 - [Les poèmes](les-poemes/)
-- [La physique](la-physique/) (for more detailed notes and course reports)
+- [La physique](la-physique/) (for detailed notes and course reports)
 
 ---
 
