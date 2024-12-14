@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# JaiMan NG (JiMin WU)
+# JaiMan NG
 
 Here are two main categories:
 - [Les poèmes](/les-poemes/)  
