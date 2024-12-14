@@ -6,7 +6,7 @@ title: La Physique
 
 ---
 
-## <p><strong>Caveat</strong></p>
+## Caveat
 
 I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
 
@@ -33,4 +33,7 @@ An incomplete note of [Gardner's Volume](../assets/notes/Notes_on_Gardner's_Volu
 
 ___
 
+## Notes on Tracer Diffusion
+This [report](../assets/notes/Notes_on_Tracer_Diffusion.pdf) was written during a two-month internship in Sorbonne Université in 2020.
 
+___
