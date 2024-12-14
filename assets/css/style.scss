@@ -165,8 +165,8 @@
 :root {
   --body-bg: black;
   --text-color: #FFFFFF;
-  --link-color: #356933; /* Changed from limegreen to #356933 */
-  --section-title-color: #356933; /* New variable for section titles */
+  --link-color: #7851A9;
+  --section-title-color: #7851A9;
 }
 
 /* Apply fonts */
@@ -180,6 +180,11 @@ body {
 
 a {
   color: var(--link-color);
+}
+
+a:hover {
+  color: lighten(var(--link-color), 10%); /* Lightens the link color by 10% on hover */
+  text-decoration: underline; /* Underlines the link on hover */
 }
 
 /* Custom class for large indentation */
