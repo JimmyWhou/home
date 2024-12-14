@@ -7,7 +7,7 @@ title: La Physique
 {:toc}
 
 ## Caveat
-I am too lazy to correct the notes written years ago; please use them with caution. It is free to read the documents available, but please do not forward or distribute them to anyone. Thanks a lot!
+I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
 
 ## Elements of Measures
 [Note](../assets/notes/Measures.pdf) on Measure and Integration.
