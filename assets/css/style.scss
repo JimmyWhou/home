@@ -1,6 +1,6 @@
 ---
 ---
- 
+
 @import "jekyll-theme-minimal";
 
 /* ===================================================
@@ -233,8 +233,8 @@ a {
   @include smooth-transition(color 0.3s ease, text-decoration 0.3s ease);
   
   &:hover {
-    color: lighten(var(--link-color), 10%); /* Lightens the link color by 10% on hover */
-    text-decoration: underline;            /* Underlines the link on hover */
+    color: lighten(#7851A9, 10%); /* Fixed: Hardcoded the color value */
+    text-decoration: underline;   /* Underlines the link on hover */
   }
 
   &:focus {
