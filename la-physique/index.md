@@ -40,7 +40,7 @@ A [report](../assets/notes/Notes on Tracer Diffusion.pdf) was written during a t
 ### Algebraic Bethe Ansatz in Spin-1/2 XXX Model
 A [report](..assets/notes/Bethe Ansatz.pdf) written during my 2nd-semester internship in LPTENS in 2019.
 
-### Group Theory and the Renormalization Group in the \(\epsilon\)-Expansion
+### Group Theory and the Renormalization Group in the \( \epsilon \)-Expansion
 A [report](../assets/notes/Group_Theory_and_the_Renormalization_Group_in_the_Epsilon_Expansion.pdf) completed during my 1st-semester library-based project at LPTENS in 2019, utilizing reading materials provided by Prof. Slava Rychkov.
 
 ### Palatini \(f(R,T)\) Gravity
