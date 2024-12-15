@@ -2,13 +2,11 @@
 layout: default
 title: La Physique
 ---
-**Caveat**  I’m too lazy to revise the outdated notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
-
-___
-
 ## La Physique
 
 ---
+**Caveat**  I’m too lazy to revise the outdated notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
+___
 
 ### Elements of Measures
 [Note](../assets/notes/Measures.pdf) on Measure and Integration.
