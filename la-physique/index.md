@@ -36,7 +36,7 @@ A [report](../assets/notes/Group_Theory_and_the_Renormalization_Group_in_the_Eps
 A brief [introduction](../assets/notes/Kitaev Chain.pdf) to the Kitaev chain.
 
 ### **Notes on Quantum Field Theory (QFT)**  
-A collection of my notes and homework on QFT, including materials from Prof. Jean Iliopoulos' summer 2017 course at SYSU and QFT courses (M1 and M2) at ENS:  
+A collection of my notes and homework on QFT, including my homework for Prof. Jean Iliopoulos' summer 2017 course at SYSU and the QFT courses (M1 and M2) at ENS:  
 - [QFTHW01](../assets/notes/QFTHW01.pdf)  
 - [QFTHW02](../assets/notes/QFTHW02.pdf)  
 - [QFTHW(ENS)](../assets/notes/QFTHW(ENS).pdf)  
@@ -46,7 +46,7 @@ A collection of my notes and homework on QFT, including materials from Prof. Jea
 This essay explores the transformations of the Christoffel symbols, Riemann tensor, Ricci tensor, Ricci scalar, Einstein tensor, and the invariance of the Weyl tensor under a conformal transformation of the metric tensor. Detailed computations are available in [Conformal Transformations in Riemannian Geometry](../assets/notes/Conformal Transformations in Riemannian Geometry.pdf).
 
 ### **Notes on General Relativity (GR)**  
-A collection of notes and homework from Prof. Tiberiu Harko's GR course at SYSU, 2016:  
+A collection of notes and my homework for Prof. Tiberiu Harko's GR course at SYSU, 2016:  
 - [1](../assets/notes/01.pdf)  
 - [2](../assets/notes/02.pdf)  
 - [3](../assets/notes/03.pdf)  
