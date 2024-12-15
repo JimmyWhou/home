@@ -39,6 +39,9 @@ This note is a brief [introduction](../assets/notes/Kitaev Chain.pdf) to the Kit
 These are some of my notes on, and homework of the QFT course given by Prof. Jean Iliopoulos in SYSU in the summer of 2017 (plus the homework of an M1 and an M2 QFT course in ENS).
 [QFTHW01](../assets/notes/QFTHW01.pdf), [QFTHW02](../assets/notes/QFTHW02.pdf), [QFTHW(ENS)](../assets/notes/QFTHW(ENS).pdf), [QFTHW(2020)](../assets/notes/QFTHW(2020).pdf)
 
+### Conformal Transformations in Riemannian Geometry
+In this essay, we show our readers the transformations of the Christoffel symbols, Riemann tensor, Ricci tensor, Ricci scalar, Einstein tensor, as well as the invariance of the Weyl tensor, in response to a conformal transformation of the metric tensor. One can find all the detailed computations in [Conformal Transformations in Riemannian Geometry](../assets/notes/Conformal Transformations in Riemannian Geometry.pdf). 
+
 ___
 
 **Caveat**  I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
