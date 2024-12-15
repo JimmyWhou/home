@@ -7,10 +7,3 @@ theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
   input: GFM
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  math_engine_opts:
-    extensions:
-      - tex
-    inline_delimiter: '\\('
-    display_delimiter: '\\['
