@@ -12,5 +12,5 @@ kramdown:
   math_engine_opts:
     extensions:
       - tex
-    inline_delimiter: '$'
-    display_delimiter: '$$'
+    inline_delimiter: '\\('
+    display_delimiter: '\\['
