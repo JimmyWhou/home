@@ -186,20 +186,6 @@ body {
   padding: 1em;
 }
 
-/* MathJax integration via CSS */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/mml-chtml.js');
-
-/* MathJax configuration for consistent styling */
-.MathJax_Display, .MathJax_SVG {
-  color: var(--text-color); /* Match text color */
-  font-size: 1em; /* Adjust size */
-  text-align: center; /* Center display math */
-}
-
-.MathJax .mi, .MathJax .mo, .MathJax .mn {
-  color: var(--text-color); /* Ensure math symbols match text */
-}
-
 /* Ensure bold text matches the text color */
 b, strong {
   color: var(--text-color);
@@ -246,17 +232,4 @@ h6 {
   font-size: var(--h6-font-size);
   color: var(--section-title-color);
   margin-bottom: 0.5em;
-}
-
-/* If you still use p > strong:only-child for titles, ensure it inherits the white color and hierarchical size */
-p > strong:only-child {
-  color: var(--section-title-color);
-  font-size: 1.2em;
-  display: block; /* Ensures it behaves like a block element */
-  margin-bottom: 0.5em;
-}
-
-/* Ensure that strong tags inside list items retain default text color */
-li > strong {
-  color: var(--text-color); /* Already set to white */
 }
