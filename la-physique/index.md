@@ -2,6 +2,20 @@
 layout: default
 title: La Physique
 ---
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [["\\(", "\\)"]],
+      displayMath: [["\\[", "\\]"]],
+      processEscapes: true
+    },
+    svg: {
+      fontCache: "global"
+    }
+  };
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/mml-chtml.js"></script>
+
 ## La Physique
 
 ---
