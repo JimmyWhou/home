@@ -3,14 +3,6 @@
 
 @import "jekyll-theme-minimal";
 
-// Define color variables for the artistic hierarchy
-$color-primary: #359c16; // Primary color, already defined as --link-color
-$color-secondary: #5cb85c; // Secondary color, a lighter shade of the primary
-$color-tertiary: #4cae4c; // Tertiary color, a different shade to add more depth
-$color-accent: #d9534f; // Accent color for highlights
-$color-background: black; // Background color, already defined as --body-bg
-$color-text: #FFFFFF; // Text color, already defined as --text-color
-
 /* Define all @font-face rules for Ysabeau variations */
 @font-face {
   font-family: 'Ysabeau';
@@ -171,13 +163,18 @@ $color-text: #FFFFFF; // Text color, already defined as --text-color
 
 /* Apply theme overrides */
 :root {
-  --body-bg: $color-background;
-  --text-color: $color-text;
-  --link-color: $color-primary;
-  --section-title-color: $color-primary;
-  --accent-color: $color-accent;
-  --secondary-color: $color-secondary;
-  --tertiary-color: $color-tertiary;
+  --body-bg: black;
+  --text-color: #FFFFFF;
+  --link-color: #359c16;
+  --section-title-color: #359c16;
+
+  /* Define hierarchical font sizes for headings */
+  --h1-font-size: 2.5em;
+  --h2-font-size: 2em;
+  --h3-font-size: 1.75em;
+  --h4-font-size: 1.5em;
+  --h5-font-size: 1.25em;
+  --h6-font-size: 1em;
 }
 
 /* Apply global styles */
@@ -200,11 +197,6 @@ a {
   text-decoration: none;
 }
 
-/* Style for hovered links */
-a:hover {
-  color: var(--accent-color);
-}
-
 /* Hierarchical font sizes for headings */
 h1 {
   font-size: var(--h1-font-size);
@@ -214,30 +206,30 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
-  color: var(--secondary-color); // Use secondary color for h2
+  color: var(--section-title-color);
   margin-bottom: 0.5em;
 }
 
 h3 {
   font-size: var(--h3-font-size);
-  color: var(--tertiary-color); // Use tertiary color for h3
+  color: var(--section-title-color);
   margin-bottom: 0.5em;
 }
 
 h4 {
   font-size: var(--h4-font-size);
-  color: var(--text-color); // Use text color for h4
+  color: var(--section-title-color);
   margin-bottom: 0.5em;
 }
 
 h5 {
   font-size: var(--h5-font-size);
-  color: var(--link-color); // Use link color for h5
+  color: var(--section-title-color);
   margin-bottom: 0.5em;
 }
 
 h6 {
   font-size: var(--h6-font-size);
-  color: var(--accent-color); // Use accent color for h6
+  color: var(--section-title-color);
   margin-bottom: 0.5em;
 }
