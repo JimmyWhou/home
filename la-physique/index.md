@@ -45,5 +45,5 @@ A collection of notes and my homework for Prof. Tiberiu Harko's GR course at SYS
 
 ---
 
-#### Caveat
+###### Caveat
 I’m too lazy to update these outdated notes, so please use them with caution. Feel free to read the documents, but kindly avoid forwarding or redistributing them. Thanks!
