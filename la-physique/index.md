@@ -7,7 +7,8 @@ title: La Physique
 
 ---
 
-**Caveat**  I’m too lazy to revise the outdated notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
+**Caveat**
+I’m too lazy to revise the outdated notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
 
 
 ### Elements of Measures
