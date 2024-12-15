@@ -2,6 +2,7 @@
 layout: default
 title: La Physique
 ---
+
 <script>
   window.MathJax = {
     tex: {
