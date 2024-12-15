@@ -2,6 +2,8 @@
 layout: default
 title: La Physique
 ---
+**Caveat**  I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
+___
 
 ## La Physique
 
@@ -48,5 +50,3 @@ These are some of my notes on, and homework of the GR course given by Prof. Tibe
 [1](../assets/notes/01.pdf), [2](../assets/notes/02.pdf), [3](../assets/notes/03.pdf), [4](../assets/notes/04.pdf), [5](../assets/notes/05.pdf), [6](../assets/notes/06.pdf), [7](../assets/notes/07.pdf), [8](../assets/notes/08.pdf), [9](../assets/notes/09.pdf), [10](../assets/notes/10.pdf), [Deriving the Lagrange equation from the Principle of the Least Action](../assets/notes/Deriving the Lagrange equation from the Principle of the Least Action.pdf), and [Obtaining the Upper Mass Limit of Neutron Stars](../assets/notes/Obtaining the Upper Mass Limit of Neutron Stars.pdf).
 
 ___
-
-**Caveat**  I’m too lazy to revise these old notes, so please use them with caution. Feel free to read the documents available, but don’t forward or distribute them. Thanks!
