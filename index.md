@@ -28,8 +28,8 @@ title: Home
   - Developed a mean-field model for rod magnets in elastic media and studied ferroic switching mechanisms [^1]  
   - Assisted as a communication lab advisor, providing theoretical insights in condensed matter and statistical physics
 - **Master's internships, ENS Paris, France**  
-  - Bethe ansatz approach in spin-1/2 XXX models (Spring & Summer 2019; [report](../assets/notes/Bethe Ansatz.pdf))  
-  - Tracer diffusion problems (Summer 2020; [report](../assets/notes/Notes on Tracer Diffusion.pdf))
+  - Bethe ansatz approach in spin-1/2 XXX models (Spring & Summer 2019; [report](/assets/notes/Bethe Ansatz.pdf))  
+  - Tracer diffusion problems (Summer 2020; [report](/assets/notes/Notes on Tracer Diffusion.pdf))
 - **Undergraduate research, SYSU, China (2017–2018)**  
   - Studied modified gravity in Palatini’s formalism and its cosmological implications [^2]
 
