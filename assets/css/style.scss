@@ -28,25 +28,25 @@
 
 /* G8 Serif (Main text) - Old-Style Figures (OSF) */
 @font-face {
-  font-family: 'G8SerifOSF';
+  font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/newG8-Osf-reg.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'G8SerifOSF';
+  font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/newG8-Osf-bol.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'G8SerifOSF';
+  font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/newG8-Osf-ita.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
-  font-family: 'G8SerifOSF';
+  font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/newG8-Osf-bolita.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
@@ -97,7 +97,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
+  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
   margin: 0;
   padding: var(--base-padding);
   line-height: var(--base-line-height);
@@ -162,5 +162,5 @@ h6 {
    Automatic CJK Handling
    ------------------------------------------------------------ */
 html, body {
-  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
+  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
 }
