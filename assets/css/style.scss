@@ -3,7 +3,10 @@
 
 @import "jekyll-theme-minimal";
 
-/* Define Ysabeau fonts */
+/* ------------------------------------------------------------
+   Font Face Definitions
+   ------------------------------------------------------------ */
+/* Ysabeau (Sans-Serif) */
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Regular.otf') format('opentype');
@@ -25,7 +28,7 @@
   font-style: italic;
 }
 
-/* Define Adobe Garamond Pro serif fonts */
+/* Adobe Garamond Pro (Serif) */
 @font-face {
   font-family: 'Garamond';
   src: url('/portfolio/assets/fonts/AdobeGaramond-Regular.otf') format('opentype');
@@ -54,58 +57,63 @@
   font-style: italic;
 }
 
-/* Define LXGWWenKai for Chinese characters */
+/* LXGWWenKai (CJK) */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F,
+                 U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
 }
 
-/* Define theme colour variables */
+/* ------------------------------------------------------------
+   Color & Font Variables (Monet-Inspired Pastel Palette)
+   ------------------------------------------------------------ */
 :root {
-  --body-bg: #0d0d0d;
-  --text-color: #f5f5f5;
-  --link-color: #a8d675;
-  --link-hover-color: #7fb349;
+  /* Background and Base Text */
+  --body-bg: #0b0b0b;              /* Deep black background */
+  --text-color: #f2f2f2;           /* Soft off-white text */
+  --link-color: #a7d0c6;           /* Pastel aqua for links */
+  --link-hover-color: #8cb7ad;     /* Slightly darker aqua on hover */
 
-  /* Heading colours */
-  --h1-color: #e1c699; /* Light gold */
-  --h2-color: #b4a7d6; /* Lavender */
-  --h3-color: #89b4d6; /* Soft blue */
-  --h4-color: #d6a89b; /* Light coral */
-  --h5-color: #d6b48b; /* Sand */
-  --h6-color: #b2c985; /* Sage green */
+  /* Headings (Pastel Impressionistic Hues) */
+  --h1-color: #debfa4;  /* Pastel peach sand */
+  --h2-color: #bcd0ad;  /* Soft pastel green */
+  --h3-color: #aebedd;  /* Subtle pastel periwinkle */
+  --h4-color: #e5c9ae;  /* Warm pastel apricot */
+  --h5-color: #d9b3bb;  /* Gentle pastel rose */
+  --h6-color: #b7bd9f;  /* Calm pastel sage */
 
-  /* Font sizes */
-  --h1-font-size: 2.5em;
+  /* Font Sizing Hierarchy */
+  --h1-font-size: 2.4em;
   --h2-font-size: 2em;
-  --h3-font-size: 1.75em;
-  --h4-font-size: 1.5em;
-  --h5-font-size: 1.25em;
+  --h3-font-size: 1.7em;
+  --h4-font-size: 1.4em;
+  --h5-font-size: 1.2em;
   --h6-font-size: 1em;
+
+  /* Spacing and Layout Vars */
+  --base-line-height: 1.6;
+  --base-padding: 1em;
 }
 
-/* Global styles */
+/* ------------------------------------------------------------
+   Global Styles
+   ------------------------------------------------------------ */
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
   font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', serif;
   margin: 0;
-  padding: 1em;
-  line-height: 1.6;
+  padding: var(--base-padding);
+  line-height: var(--base-line-height);
 }
 
-/* Ensure bold and strong text inherits text colour */
-b, strong {
-  color: var(--text-color);
-}
-
-/* Links */
 a {
   color: var(--link-color);
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
@@ -113,50 +121,101 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Headings with font size and colour hierarchy */
+/* Bold and Strong inherit text color */
+b, strong {
+  color: var(--text-color);
+}
+
+/* ------------------------------------------------------------
+   Headings: Garamond for old-styled elegance, pastel hues
+   ------------------------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Garamond', serif;
+  font-weight: 700; /* Garamond Bold for headings */
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+/* Individual Heading Styles */
 h1 {
   font-size: var(--h1-font-size);
   color: var(--h1-color);
-  font-family: 'Garamond', serif;
-  margin-bottom: 0.5em;
 }
 
 h2 {
   font-size: var(--h2-font-size);
   color: var(--h2-color);
-  font-family: 'Garamond', serif;
-  margin-bottom: 0.5em;
 }
 
 h3 {
   font-size: var(--h3-font-size);
   color: var(--h3-color);
-  margin-bottom: 0.5em;
 }
 
 h4 {
   font-size: var(--h4-font-size);
   color: var(--h4-color);
-  margin-bottom: 0.5em;
 }
 
 h5 {
   font-size: var(--h5-font-size);
   color: var(--h5-color);
-  margin-bottom: 0.5em;
 }
 
 h6 {
   font-size: var(--h6-font-size);
   color: var(--h6-color);
-  margin-bottom: 0.5em;
+  font-weight: 400; /* Slightly lighter for subtle emphasis */
 }
 
-/* Automatically apply LXGWWenKai for Chinese text */
-body {
+/* ------------------------------------------------------------
+   Chinese Text: LXGWWenKai should apply automatically due to unicode-range
+   ------------------------------------------------------------ */
+
+/* Just ensure body has the font stack including LXGWWenKai */
+html, body {
   font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', serif;
 }
 
-html {
-  font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', serif;
+/* ------------------------------------------------------------
+   Additional Subtle Enhancements
+   ------------------------------------------------------------ */
+
+/* Slight letter-spacing and smoothing */
+body, h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.02em;
 }
+
+/* Transition for Links */
+a, h1, h2, h3, h4, h5, h6 {
+  transition: color 0.3s ease;
+}
+
+/* Optional: Add gentle horizontal rules for separation */
+hr {
+  border: none;
+  border-top: 1px solid #444444;
+  margin: 2em 0;
+  opacity: 0.7;
+}
+
+/* Lists keep default styling but are clearly readable */
+ul, ol {
+  margin-left: 2em;
+}
+
+li > strong {
+  color: var(--text-color);
+}
+
+/* Ensure italic text stands out gently */
+em, i {
+  font-style: italic;
+  color: var(--text-color);
+}
+
+/* The result is a balanced, impressionistic palette reminiscent
+   of a Monet painting: luminous pastel hues emerge against
+   a velvety black backdrop, guided by elegant fonts and clear hierarchy. */
