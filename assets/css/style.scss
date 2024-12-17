@@ -37,21 +37,21 @@
 }
 
 /* ------------------------------------------------------------
-   Color & Font Variables (Bright Pastels on Black)
+   Color & Font Variables (Green-Based Theme on Black)
    ------------------------------------------------------------ */
 :root {
-  --body-bg: #000000;        /* Black background */
-  --text-color: #f2f2f2;     /* White text */
-  --link-color: #FFB3E0;     /* Pastel pink */
-  --link-hover-color: #FF99D6; /* Darker pink for hover */
+  --body-bg: #000000;          /* Black background */
+  --text-color: #E0FFE0;       /* Soft mint white for main text */
+  --link-color: #32CD32;       /* Bright lime green */
+  --link-hover-color: #98FB98; /* Pale green for hover effect */
 
-  /* Heading Colors */
-  --h1-color: #B3FFD8; /* Mint green */
-  --h2-color: #B3E0FF; /* Light blue */
-  --h3-color: #FFD9B3; /* Peach */
-  --h4-color: #F0B3FF; /* Lilac pink */
-  --h5-color: #FFB3E0; /* Pastel pink */
-  --h6-color: #B3FFB3; /* Light spring green */
+  /* Heading Colors - Green Variants */
+  --h1-color: #7FFF00; /* Chartreuse green */
+  --h2-color: #32CD32; /* Lime green */
+  --h3-color: #3CB371; /* Medium sea green */
+  --h4-color: #66CDAA; /* Aquamarine */
+  --h5-color: #00FA9A; /* Medium spring green */
+  --h6-color: #8FBC8F; /* Dark sea green */
 
   /* Heading Sizes */
   --h1-font-size: 2.4em;
