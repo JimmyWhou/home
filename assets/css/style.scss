@@ -6,7 +6,7 @@
 /* ------------------------------------------------------------
    Font Face Definitions
    ------------------------------------------------------------ */
-/* Ysabeau (Sans-Serif) */
+/* Ysabeau (Sans-Serif) for headings */
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Regular.otf') format('opentype');
@@ -28,7 +28,7 @@
   font-style: italic;
 }
 
-/* Adobe Garamond Pro (Serif) */
+/* Adobe Garamond Pro (Serif) for main body text */
 @font-face {
   font-family: 'Garamond';
   src: url('/portfolio/assets/fonts/AdobeGaramond-Regular.otf') format('opentype');
@@ -57,7 +57,7 @@
   font-style: italic;
 }
 
-/* LXGWWenKai (CJK) */
+/* LXGWWenKai (CJK) for Chinese characters */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
@@ -68,22 +68,22 @@
 }
 
 /* ------------------------------------------------------------
-   Color & Font Variables (Monet-Inspired Pastel Palette)
+   Color & Font Variables (Bright, Optimistic Pastels)
    ------------------------------------------------------------ */
 :root {
   /* Background and Base Text */
-  --body-bg: #0b0b0b;              /* Deep black background */
-  --text-color: #f2f2f2;           /* Soft off-white text */
-  --link-color: #a7d0c6;           /* Pastel aqua for links */
-  --link-hover-color: #8cb7ad;     /* Slightly darker aqua on hover */
+  --body-bg: #FAFAFA;        /* Light, uplifting background */
+  --text-color: #333333;     /* Dark grey for excellent readability */
+  --link-color: #F7A8B8;     /* Bright pastel pink for links */
+  --link-hover-color: #F48AA7; /* Slightly deeper pink on hover */
 
-  /* Headings (Pastel Impressionistic Hues) */
-  --h1-color: #debfa4;  /* Pastel peach sand */
-  --h2-color: #bcd0ad;  /* Soft pastel green */
-  --h3-color: #aebedd;  /* Subtle pastel periwinkle */
-  --h4-color: #e5c9ae;  /* Warm pastel apricot */
-  --h5-color: #d9b3bb;  /* Gentle pastel rose */
-  --h6-color: #b7bd9f;  /* Calm pastel sage */
+  /* Headings (Vibrant Pastels) */
+  --h1-color: #FFB3BA; /* Pastel pink */
+  --h2-color: #BFFCC6; /* Pastel green */
+  --h3-color: #AFF8DB; /* Pastel aqua */
+  --h4-color: #FFDFD3; /* Pastel peach */
+  --h5-color: #C4FAF8; /* Pastel sky blue */
+  --h6-color: #FF9CEE; /* Pastel lavender-pink */
 
   /* Font Sizing Hierarchy */
   --h1-font-size: 2.4em;
@@ -93,7 +93,6 @@
   --h5-font-size: 1.2em;
   --h6-font-size: 1em;
 
-  /* Spacing and Layout Vars */
   --base-line-height: 1.6;
   --base-padding: 1em;
 }
@@ -104,7 +103,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', serif;
+  font-family: 'Garamond', 'Ysabeau', 'LXGWWenKai', serif;
   margin: 0;
   padding: var(--base-padding);
   line-height: var(--base-line-height);
@@ -121,18 +120,17 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Bold and Strong inherit text color */
+/* Ensure bold and strong text inherits text color */
 b, strong {
   color: var(--text-color);
 }
 
 /* ------------------------------------------------------------
-   Headings: Garamond for old-styled elegance, pastel hues
+   Headings: Ysabeau for clarity, pastel colors for joy
    ------------------------------------------------------------ */
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Garamond', serif;
-  font-weight: 700; /* Garamond Bold for headings */
+  font-family: 'Ysabeau', sans-serif; /* Switching roles: Ysabeau now for headings */
+  font-weight: 700; 
   margin-bottom: 0.5em;
   line-height: 1.2;
 }
@@ -170,38 +168,29 @@ h6 {
 }
 
 /* ------------------------------------------------------------
-   Chinese Text: LXGWWenKai should apply automatically due to unicode-range
+   Chinese Text: LXGWWenKai applies automatically
    ------------------------------------------------------------ */
-
-/* Just ensure body has the font stack including LXGWWenKai */
 html, body {
-  font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', serif;
+  font-family: 'Garamond', 'Ysabeau', 'LXGWWenKai', serif;
 }
 
 /* ------------------------------------------------------------
    Additional Subtle Enhancements
    ------------------------------------------------------------ */
-
-/* Slight letter-spacing and smoothing */
 body, h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.02em;
 }
 
-/* Transition for Links */
-a, h1, h2, h3, h4, h5, h6 {
-  transition: color 0.3s ease;
-}
-
-/* Optional: Add gentle horizontal rules for separation */
+/* Horizontal rules for gentle separation */
 hr {
   border: none;
-  border-top: 1px solid #444444;
+  border-top: 1px solid #ddd;
   margin: 2em 0;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-/* Lists keep default styling but are clearly readable */
+/* Lists, Italics, etc. */
 ul, ol {
   margin-left: 2em;
 }
@@ -210,12 +199,17 @@ li > strong {
   color: var(--text-color);
 }
 
-/* Ensure italic text stands out gently */
 em, i {
   font-style: italic;
   color: var(--text-color);
 }
 
-/* The result is a balanced, impressionistic palette reminiscent
-   of a Monet painting: luminous pastel hues emerge against
-   a velvety black backdrop, guided by elegant fonts and clear hierarchy. */
+/* Smooth transitions */
+a, h1, h2, h3, h4, h5, h6 {
+  transition: color 0.3s ease;
+}
+
+/* The final result: A bright, optimistic pastel palette on a light background,
+   with Garamond for body text lending timeless academic elegance, and Ysabeau
+   for headings providing modern clarity. LXGWWenKai ensures Chinese text fits
+   seamlessly. The impression is joyful, confident, and scholarly—perfect for a CV. */
