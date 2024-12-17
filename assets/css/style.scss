@@ -94,8 +94,8 @@
 :root {
   --body-bg: #000000;        /* Black background */
   --text-color: #f2f2f2;      /* White text */
-  --link-color: #FFB3E0;      /* Pastel pink */
-  --link-hover-color: #FF99D6; /* Hover pink */
+  --link-color: #32CD32;      /* Lime green */
+  --link-hover-color: #B3FFB3; /* Spring green */
 
   /* Headings */
   --h1-color: #FFD9B3; /* Peach */
@@ -129,16 +129,13 @@ body {
   line-height: var(--base-line-height);
 }
 
-h1, .site-title {
-  color: #32CD32;
-}
 a {
-  color: #FFB3E0;
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #FF99D6;
+  color: var(--link-hover-color);
   text-decoration: underline;
 }
 
