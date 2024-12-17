@@ -1,3 +1,6 @@
+---
+---
+
 @import "jekyll-theme-minimal";
 
 /* ------------------------------------------------------------
@@ -89,18 +92,18 @@
    Color & Font Variables (Bright Pastels on Black)
    ------------------------------------------------------------ */
 :root {
-  --body-bg: #000000;          /* Black background */
-  --text-color: #f2f2f2;       /* White text */
-  --link-color: #32CD32;       /* Spring green */
+  --body-bg: #000000;        /* Black background */
+  --text-color: #f2f2f2;      /* White text */
+  --link-color: #32CD32      /* Spring green */
   --link-hover-color: #B3E0FF; /* Light blue */
 
   /* Headings */
-  --h1-color: #B3E0FF;  /* Light blue */
-  --h2-color: #32CD32;  /* Lime green */
-  --h3-color: #32CD32;  /* Lime green (can be adjusted if desired) */
-  --h4-color: #32CD32;  /* Lime green */
-  --h5-color: #B3E0FF;  /* Light blue */
-  --h6-color: #f2f2f2;  /* White (same as body text) */
+  --h2-color: #32CD32; /* Lime green */
+  --h2-color: #32CD32; /* Lime green */
+  --h4-color: #32CD32 /* Spring green */
+  --h4-color: #32CD32 /* Spring green */
+  --h5-color: #B3E0FF; /* Light blue */
+  --h5-color: #B3E0FF; /* Light blue */
 
   /* Heading Sizes */
   --h1-font-size: 2.4em;
@@ -117,16 +120,13 @@
 /* ------------------------------------------------------------
    Global Styles
    ------------------------------------------------------------ */
-html, body {
-  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
-  margin: 0;
-  line-height: var(--base-line-height);
-}
-
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
+  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
+  margin: 0;
   padding: var(--base-padding);
+  line-height: var(--base-line-height);
 }
 
 a {
@@ -182,4 +182,11 @@ h6 {
   font-size: var(--h6-font-size);
   color: var(--h6-color);
   font-weight: 400;
+}
+
+/* ------------------------------------------------------------
+   Automatic CJK Handling
+   ------------------------------------------------------------ */
+html, body {
+  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
 }
