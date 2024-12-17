@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "jekyll-theme-minimal";
 
 /* ------------------------------------------------------------
@@ -11,81 +12,70 @@
   src: url('/portfolio/assets/fonts/Ysabeau-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Italic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
-  font-display: swap;
 }
 
-/* NewG8 Serif (Main text) */
+/* NewG8 Serif (Main text) - Core Set */
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Reg.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Bol.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Ita.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
-  font-display: swap;
 }
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-BolIta.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
 }
 
-/* G8 Serif - Old-Style Figures */
+/* G8 Serif - Old-Style Figures (OSF) */
 @font-face {
   font-family: 'G8SerifOSF';
   src: url('/portfolio/assets/fonts/newG8-Osf-reg.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'G8SerifOSF';
   src: url('/portfolio/assets/fonts/newG8-Osf-bol.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: 'G8SerifOSF';
   src: url('/portfolio/assets/fonts/newG8-Osf-ita.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
-  font-display: swap;
 }
 @font-face {
   font-family: 'G8SerifOSF';
   src: url('/portfolio/assets/fonts/newG8-Osf-bolita.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
 }
 
 /* LXGWWenKai (CJK) for Chinese text */
@@ -94,7 +84,6 @@
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
   unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F,
                  U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
 }
@@ -103,17 +92,20 @@
    Color & Font Variables (Bright Pastels on Black)
    ------------------------------------------------------------ */
 :root {
-  /* Colors */
-  --body-bg: #000000;         /* Black background */
+  --body-bg: #000000;        /* Black background */
   --text-color: #f2f2f2;      /* White text */
-  --link-color: #32CD32;      /* Spring green */
+  --link-color: #32CD32      /* Spring green */
   --link-hover-color: #B3E0FF; /* Light blue */
 
   /* Headings */
-  --heading-color: #32CD32; /* Lime green */
-  --subheading-color: #B3E0FF; /* Light blue */
+  --h2-color: #32CD32; /* Lime green */
+  --h2-color: #32CD32; /* Lime green */
+  --h4-color: #32CD32 /* Spring green */
+  --h4-color: #32CD32 /* Spring green */
+  --h5-color: #B3E0FF; /* Light blue */
+  --h5-color: #B3E0FF; /* Light blue */
 
-  /* Font Sizes */
+  /* Heading Sizes */
   --h1-font-size: 2.4em;
   --h2-font-size: 2em;
   --h3-font-size: 1.7em;
@@ -121,7 +113,6 @@
   --h5-font-size: 1.2em;
   --h6-font-size: 1em;
 
-  /* Layout */
   --base-line-height: 1.6;
   --base-padding: 1em;
 }
@@ -142,11 +133,10 @@ a {
   color: var(--link-color);
   text-decoration: none;
   transition: color 0.3s ease;
-
-  &:hover {
-    color: var(--link-hover-color);
-    text-decoration: underline;
-  }
+}
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
 }
 
 b, strong {
@@ -165,27 +155,32 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: var(--h1-font-size);
-  color: var(--heading-color);
+  color: var(--h1-color);
 }
 
-h2, h4 {
+h2 {
   font-size: var(--h2-font-size);
-  color: var(--heading-color);
+  color: var(--h2-color);
 }
 
 h3 {
   font-size: var(--h3-font-size);
-  color: var(--subheading-color);
+  color: var(--h3-color);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+  color: var(--h4-color);
 }
 
 h5 {
   font-size: var(--h5-font-size);
-  color: var(--subheading-color);
+  color: var(--h5-color);
 }
 
 h6 {
   font-size: var(--h6-font-size);
-  color: var(--text-color);
+  color: var(--h6-color);
   font-weight: 400;
 }
 
@@ -193,5 +188,5 @@ h6 {
    Automatic CJK Handling
    ------------------------------------------------------------ */
 html, body {
-  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
+  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
 }
