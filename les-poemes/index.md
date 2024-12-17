@@ -3,7 +3,7 @@ layout: default
 title: Les Poèmes
 ---
 
-## Les poèmes
+## Les Poèmes
 
 The following are my translations of some (mostly) English poems many years ago. Most of the originals are from _Leaves of Grass_ by Walt Whitman. Welcome to read if you enjoy literary translation.
 
