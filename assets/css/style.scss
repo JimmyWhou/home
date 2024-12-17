@@ -1,3 +1,6 @@
+---
+---
+
 @import "jekyll-theme-minimal";
 
 /* ------------------------------------------------------------
@@ -91,16 +94,16 @@
 :root {
   --body-bg: #000000;        /* Black background */
   --text-color: #f2f2f2;      /* White text */
-  --link-color: #B3FFB3;      /* Spring green */
+  --link-color: #32CD32      /* Spring green */
   --link-hover-color: #B3E0FF; /* Light blue */
 
   /* Headings */
-  --h1-color: #32CD32; /* Lime green */
-  --h2-color: #B3E0FF; /* Light blue */
-  --h3-color: #F0B3FF; /* Lilac pink */
-  --h4-color: #B3FFB3; /* Spring green */
-  --h5-color: #FFE0B3; /* Soft yellow */
-  --h6-color: #FFD9B3; /* Peach */
+  --h1-color: #F0B3FF; /* Lilac pink */
+  --h2-color: #32CD32; /* Lime green */
+  --h3-color: #FFD9B3; /* Peach */
+  --h4-color: #32CD32 /* Spring green */
+  --h5-color: #B3E0FF; /* Light blue */
+  --h6-color: #FFE0B3; /* Soft yellow */
 
   /* Heading Sizes */
   --h1-font-size: 2.4em;
@@ -120,7 +123,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
+  font-family: 'G8SerifOSF', 'Ysabeau', 'LXGWWenKai', serif;
   margin: 0;
   padding: var(--base-padding);
   line-height: var(--base-line-height);
@@ -132,7 +135,7 @@ a {
   transition: color 0.3s ease;
 }
 a:hover {
-  color: var (--link-hover-color);
+  color: var(--link-hover-color);
   text-decoration: underline;
 }
 
