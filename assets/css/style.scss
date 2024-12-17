@@ -26,33 +26,7 @@
   font-style: italic;
 }
 
-/* NewG8 Serif (Main text) - Core Set */
-@font-face {
-  font-family: 'G8Serif';
-  src: url('/portfolio/assets/fonts/NewG8-Reg.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'G8Serif';
-  src: url('/portfolio/assets/fonts/NewG8-Bol.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'G8Serif';
-  src: url('/portfolio/assets/fonts/NewG8-Ita.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'G8Serif';
-  src: url('/portfolio/assets/fonts/NewG8-BolIta.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* G8 Serif - Old-Style Figures (OSF) */
+/* G8 Serif (Main text) - Old-Style Figures (OSF) */
 @font-face {
   font-family: 'G8SerifOSF';
   src: url('/portfolio/assets/fonts/newG8-Osf-reg.otf') format('opentype');
