@@ -3,63 +3,7 @@
 
 @import "jekyll-theme-minimal";
 
-/* Define all @font-face rules for Ysabeau variations */
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Hairline.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-HairlineItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ThinItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraLight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraLightItalic.otf') format('opentype');
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-LightItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-}
-
+/* Define Ysabeau fonts */
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Regular.otf') format('opentype');
@@ -69,106 +13,59 @@
 
 @font-face {
   font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Italic.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-MediumItalic.otf') format('opentype');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-SemiBoldItalic.otf') format('opentype');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
+/* Define Garamond fonts */
 @font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-BoldItalic.otf') format('opentype');
+  font-family: 'Garamond';
+  src: url('/portfolio/assets/fonts/AdobeGaramond-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('/portfolio/assets/fonts/AdobeGaramond-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('/portfolio/assets/fonts/AdobeGaramond-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('/portfolio/assets/fonts/AdobeGaramond-BoldItalic.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
 }
 
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraBold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-ExtraBoldItalic.otf') format('opentype');
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Ysabeau';
-  src: url('/portfolio/assets/fonts/Ysabeau-BlackItalic.otf') format('opentype');
-  font-weight: 900;
-  font-style: italic;
-}
-
-/* Define the LXGWWenKai GB Screen font for Chinese characters */
+/* Define LXGWWenKai for Chinese fonts */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  /* Unicode ranges for Chinese characters */
-  unicode-range: U+4E00-9FFF,      /* Basic CJK Unified Ideographs */
-                 U+3400-4DBF,      /* CJK Extension A */
-                 U+20000-2A6DF,    /* CJK Extension B */
-                 U+2A700-2B73F,    /* CJK Extension C */
-                 U+2B740-2B81F,    /* CJK Extension D */
-                 U+2B820-2CEAF,    /* CJK Extension E */
-                 U+F900-FAFF,      /* CJK Compatibility Ideographs */
-                 U+2F800-2FA1F;    /* CJK Compatibility Supplement */
+  unicode-range: U+4E00-9FFF; /* Chinese characters only */
 }
 
-/* Apply theme overrides */
+/* Theme overrides */
 :root {
-  --body-bg: black;
-  --text-color: #FFFFFF;
-  --link-color: #359c16;
-  --section-title-color: #359c16;
+  --body-bg: #1A1A1A; /* Dark grey background */
+  --text-color: #FFFFFF; /* White text */
+  --link-color: #7B9F35; /* Muted lime green */
+  --link-hover-color: #A1D683; /* Brighter green on hover */
+  --section-title-color: #D4AF37; /* Gold for section titles */
+  --heading-color: #FFFFFF; /* White for headings */
 
-  /* Define hierarchical font sizes for headings */
+  /* Hierarchical font sizes */
   --h1-font-size: 2.5em;
   --h2-font-size: 2em;
   --h3-font-size: 1.75em;
@@ -177,59 +74,82 @@
   --h6-font-size: 1em;
 }
 
-/* Apply global styles */
+/* Global Styles */
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'Ysabeau', sans-serif;
+  font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', sans-serif;
   margin: 0;
   padding: 1em;
 }
 
-/* Ensure bold text matches the text color */
+/* Paragraphs and Text */
+p {
+  font-family: 'Garamond', 'Ysabeau', 'LXGWWenKai', serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Bold text remains styled */
 b, strong {
   color: var(--text-color);
 }
 
-/* Style for links */
+/* Links */
 a {
   color: var(--link-color);
   text-decoration: none;
 }
 
-/* Hierarchical font sizes for headings */
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Garamond', serif;
+  color: var(--heading-color);
+  margin-bottom: 0.5em;
+}
+
 h1 {
   font-size: var(--h1-font-size);
   color: var(--section-title-color);
-  margin-bottom: 0.5em;
 }
 
 h2 {
   font-size: var(--h2-font-size);
   color: var(--section-title-color);
-  margin-bottom: 0.5em;
 }
 
 h3 {
   font-size: var(--h3-font-size);
-  color: var(--section-title-color);
-  margin-bottom: 0.5em;
+  color: var(--link-color);
 }
 
 h4 {
   font-size: var(--h4-font-size);
-  color: var(--section-title-color);
-  margin-bottom: 0.5em;
+  color: var(--text-color);
 }
 
-h5 {
+h5, h6 {
   font-size: var(--h5-font-size);
-  color: var(--section-title-color);
-  margin-bottom: 0.5em;
+  color: var(--text-color);
 }
 
-h6 {
-  font-size: var(--h6-font-size);
-  color: var(--section-title-color);
-  margin-bottom: 0.5em;
+/* Special handling for Chinese characters */
+* {
+  font-family: 'Ysabeau', 'Garamond', 'LXGWWenKai', sans-serif;
+}
+
+/* Ensure proper rendering of bold and italic fonts */
+b, strong {
+  font-family: 'Garamond', 'Ysabeau', sans-serif;
+  font-weight: bold;
+}
+
+em, i {
+  font-family: 'Garamond', 'Ysabeau', sans-serif;
+  font-style: italic;
 }
