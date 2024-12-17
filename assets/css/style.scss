@@ -6,7 +6,7 @@
 /* ------------------------------------------------------------
    Font Face Definitions
    ------------------------------------------------------------ */
-/* Ysabeau (Sans-Serif) for headings */
+/* Ysabeau (Main Font for Latin Text) */
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Regular.otf') format('opentype');
@@ -26,33 +26,7 @@
   font-style: italic;
 }
 
-/* G8 Serif (Main text) - Old-Style Figures (OSF) */
-@font-face {
-  font-family: 'G8SerifOSF';
-  src: url('/portfolio/assets/fonts/newG8-Osf-reg.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'G8SerifOSF';
-  src: url('/portfolio/assets/fonts/newG8-Osf-bol.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'G8SerifOSF';
-  src: url('/portfolio/assets/fonts/newG8-Osf-ita.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'G8SerifOSF';
-  src: url('/portfolio/assets/fonts/newG8-Osf-bolita.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* LXGWWenKai (CJK) for Chinese text */
+/* LXGWWenKai (Chinese Font) */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
@@ -67,17 +41,17 @@
    ------------------------------------------------------------ */
 :root {
   --body-bg: #000000;        /* Black background */
-  --text-color: #f2f2f2;      /* White text */
-  --link-color: #B3FFB3;      /* Spring green */
-  --link-hover-color: #B3E0FF; /* Light blue */
+  --text-color: #f2f2f2;     /* White text */
+  --link-color: #FFB3E0;     /* Pastel pink */
+  --link-hover-color: #FF99D6; /* Darker pink for hover */
 
-  /* Headings */
-  --h1-color: #32CD32; /* Lime green */
-  --h2-color: #32CD32; /* Lime green */
-  --h3-color: #B3FFB3; /* Spring green */
-  --h4-color: #B3FFB3; /* Spring green */
-  --h5-color: #B3E0FF; /* Light blue */
-  --h6-color: #B3E0FF; /* Light blue */
+  /* Heading Colors */
+  --h1-color: #B3FFD8; /* Mint green */
+  --h2-color: #B3E0FF; /* Light blue */
+  --h3-color: #FFD9B3; /* Peach */
+  --h4-color: #F0B3FF; /* Lilac pink */
+  --h5-color: #FFB3E0; /* Pastel pink */
+  --h6-color: #B3FFB3; /* Light spring green */
 
   /* Heading Sizes */
   --h1-font-size: 2.4em;
@@ -97,7 +71,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'G8SerifOSF', 'LXGWWenKai', serif; /* Prioritize G8SerifOSF */
+  font-family: 'Ysabeau', 'LXGWWenKai', sans-serif;
   margin: 0;
   padding: var(--base-padding);
   line-height: var(--base-line-height);
@@ -114,6 +88,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Bold text matches main text color */
 b, strong {
   color: var(--text-color);
 }
@@ -122,7 +97,7 @@ b, strong {
    Headings
    ------------------------------------------------------------ */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ysabeau', sans-serif; /* Use Ysabeau for headings */
+  font-family: 'Ysabeau', sans-serif;
   font-weight: 700;
   margin-bottom: 0.5em;
   line-height: 1.2;
@@ -160,8 +135,8 @@ h6 {
 }
 
 /* ------------------------------------------------------------
-   Automatic CJK Handling
+   Automatic CJK Handling (Chinese Text)
    ------------------------------------------------------------ */
 html, body {
-  font-family: 'G8SerifOSF', 'LXGWWenKai', serif;
+  font-family: 'Ysabeau', 'LXGWWenKai', sans-serif;
 }
