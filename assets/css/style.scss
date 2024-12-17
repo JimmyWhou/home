@@ -129,13 +129,16 @@ body {
   line-height: var(--base-line-height);
 }
 
+h1, .site-title {
+  color: #32CD32;
+}
 a {
-  color: var(--link-color);
+  color: #FFB3E0;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 a:hover {
-  color: var(--link-hover-color);
+  color: #FF99D6;
   text-decoration: underline;
 }
 
