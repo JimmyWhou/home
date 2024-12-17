@@ -13,14 +13,12 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Ysabeau';
   src: url('/portfolio/assets/fonts/Ysabeau-Italic.otf') format('opentype');
@@ -28,35 +26,25 @@
   font-style: italic;
 }
 
-/* G8 Serif family (replacing Garamond) for main text
-   We'll define a general "G8Serif" family using:
-   - NewG8-Reg.otf: Normal 400
-   - NewG8-Bol.otf: Bold 700
-   - NewG8-Ita.otf: Italic 400 italic
-   - NewG8-BolIta.otf: Bold Italic 700 italic
-   We'll have SC (small caps) and sups variants available if needed. */
-
+/* G8 Serif (Main text) - Core Set */
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Reg.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Bol.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Ita.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-BolIta.otf') format('opentype');
@@ -64,28 +52,25 @@
   font-style: italic;
 }
 
-/* Additional G8 variants (small caps, sups) if needed */
+/* G8 Serif - Small Caps Variants (SC) */
 @font-face {
   font-family: 'G8SerifSC';
   src: url('/portfolio/assets/fonts/NewG8-Reg-SC.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'G8SerifSC';
   src: url('/portfolio/assets/fonts/NewG8-Bol-SC.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'G8SerifSC';
   src: url('/portfolio/assets/fonts/NewG8-Ita-SC.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'G8SerifSC';
   src: url('/portfolio/assets/fonts/NewG8-BolIta-SC.otf') format('opentype');
@@ -93,6 +78,33 @@
   font-style: italic;
 }
 
+/* G8 Serif - Old-Style Figures (OSF) */
+@font-face {
+  font-family: 'G8SerifOSF';
+  src: url('/portfolio/assets/fonts/newG8-Osf-reg.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'G8SerifOSF';
+  src: url('/portfolio/assets/fonts/newG8-Osf-bol.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'G8SerifOSF';
+  src: url('/portfolio/assets/fonts/newG8-Osf-ita.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'G8SerifOSF';
+  src: url('/portfolio/assets/fonts/newG8-Osf-bolita.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* G8 Serif - SUPS (Superscripts) */
 @font-face {
   font-family: 'G8SerifSUPS';
   src: url('/portfolio/assets/fonts/NewG8-sups.otf') format('opentype');
@@ -100,7 +112,33 @@
   font-style: normal;
 }
 
-/* LXGWWenKai (CJK) for Chinese text */
+/* ZGMB variants (if needed) */
+@font-face {
+  font-family: 'ZGMBSerif';
+  src: url('/portfolio/assets/fonts/zgmr-tc.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZGMBSerif';
+  src: url('/portfolio/assets/fonts/zgmb-tc.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZGMBSerif';
+  src: url('/portfolio/assets/fonts/zgmri-tc.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'ZGMBSerif';
+  src: url('/portfolio/assets/fonts/zgmbi-tc.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* LXGWWenKai (CJK) for Chinese characters */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
@@ -111,25 +149,22 @@
 }
 
 /* ------------------------------------------------------------
-   Color & Font Variables
-   Black background for academic gravity.
-   Bright, joyful pastel colors to convey optimism.
+   Color & Font Variables (Bright Pastels on Black)
    ------------------------------------------------------------ */
 :root {
-  --body-bg: #000000;
-  --text-color: #f2f2f2;
-  --link-color: #FFB3D9;      /* Bright pastel pink for links */
-  --link-hover-color: #FF99CC; /* Slightly more saturated pink on hover */
+  --body-bg: #000000;        /* Academic black background */
+  --text-color: #f2f2f2;      /* Light text for readability */
+  --link-color: #FFB3E0;      /* Vibrant pastel pink for links */
+  --link-hover-color: #FF99D6; /* Slightly more intense pink on hover */
 
-  /* Headings (Bright Pastels) on black */
+  /* Headings in bright pastel hues */
   --h1-color: #FFD9B3; /* Pastel peach */
-  --h2-color: #B3FFD1; /* Pastel mint green */
-  --h3-color: #B3E0FF; /* Pastel baby blue */
-  --h4-color: #FFEDB3; /* Pastel soft yellow */
-  --h5-color: #FFB3F0; /* Pastel fuchsia pink */
-  --h6-color: #D6B3FF; /* Pastel lavender purple */
+  --h2-color: #B3FFD8; /* Pastel mint aqua */
+  --h3-color: #B3E0FF; /* Light sky pastel blue */
+  --h4-color: #FFE0B3; /* Soft pastel banana */
+  --h5-color: #F0B3FF; /* Pastel lilac rose */
+  --h6-color: #B3FFB3; /* Pastel spring green */
 
-  /* Font Size Hierarchy */
   --h1-font-size: 2.4em;
   --h2-font-size: 2em;
   --h3-font-size: 1.7em;
@@ -147,8 +182,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  /* Main text: G8Serif for scholarly elegance, with Ysabeau and LXGWWenKai fallback */
-  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
+  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif; /* Main text in G8Serif */
   margin: 0;
   padding: var(--base-padding);
   line-height: var(--base-line-height);
@@ -171,7 +205,7 @@ b, strong {
 }
 
 /* ------------------------------------------------------------
-   Headings: Ysabeau for clarity, bright pastel colors for positivity
+   Headings: Ysabeau for headings
    ------------------------------------------------------------ */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ysabeau', sans-serif;
@@ -212,7 +246,7 @@ h6 {
 }
 
 /* ------------------------------------------------------------
-   Chinese Text: LXGWWenKai applies automatically to CJK chars
+   Chinese Text handled by LXGWWenKai automatically
    ------------------------------------------------------------ */
 html, body {
   font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
@@ -226,7 +260,6 @@ body, h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
 }
 
-/* Gentle horizontal rules */
 hr {
   border: none;
   border-top: 1px solid #444444;
@@ -234,7 +267,6 @@ hr {
   opacity: 0.8;
 }
 
-/* Lists & Italics */
 ul, ol {
   margin-left: 2em;
 }
@@ -248,12 +280,11 @@ em, i {
   color: var(--text-color);
 }
 
-/* Smooth transitions on interactive elements */
 a, h1, h2, h3, h4, h5, h6 {
   transition: color 0.3s ease;
 }
 
-/* The final result: An academic black canvas illuminated by bright pastel hues,
-   G8Serif for main text lending old-world gravitas, Ysabeau headings adding modern crispness,
-   and LXGWWenKai unifying Chinese text. The atmosphere is scholarly yet joyful, 
-   exuding confidence, clarity, and a memorable visual identity. */
+/* The final impression: A scholarly black background, modern headings in Ysabeau,
+   old-style G8Serif for main text, Chinese handled by LXGWWenKai. 
+   Bright pastel headings and link colors exude joy and optimism,
+   making it an unforgettable CV browsing experience. */
