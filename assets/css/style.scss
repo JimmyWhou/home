@@ -26,7 +26,7 @@
   font-style: italic;
 }
 
-/* G8 Serif (Main text) - Core Set */
+/* NewG8 Serif (Main text) - Core Set */
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-Reg.otf') format('opentype');
@@ -48,32 +48,6 @@
 @font-face {
   font-family: 'G8Serif';
   src: url('/portfolio/assets/fonts/NewG8-BolIta.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* G8 Serif - Small Caps Variants (SC) */
-@font-face {
-  font-family: 'G8SerifSC';
-  src: url('/portfolio/assets/fonts/NewG8-Reg-SC.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'G8SerifSC';
-  src: url('/portfolio/assets/fonts/NewG8-Bol-SC.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'G8SerifSC';
-  src: url('/portfolio/assets/fonts/NewG8-Ita-SC.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'G8SerifSC';
-  src: url('/portfolio/assets/fonts/NewG8-BolIta-SC.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
 }
@@ -104,41 +78,7 @@
   font-style: italic;
 }
 
-/* G8 Serif - SUPS (Superscripts) */
-@font-face {
-  font-family: 'G8SerifSUPS';
-  src: url('/portfolio/assets/fonts/NewG8-sups.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* ZGMB variants (if needed) */
-@font-face {
-  font-family: 'ZGMBSerif';
-  src: url('/portfolio/assets/fonts/zgmr-tc.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'ZGMBSerif';
-  src: url('/portfolio/assets/fonts/zgmb-tc.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'ZGMBSerif';
-  src: url('/portfolio/assets/fonts/zgmri-tc.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'ZGMBSerif';
-  src: url('/portfolio/assets/fonts/zgmbi-tc.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* LXGWWenKai (CJK) for Chinese characters */
+/* LXGWWenKai (CJK) for Chinese text */
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('/portfolio/assets/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
@@ -152,19 +92,20 @@
    Color & Font Variables (Bright Pastels on Black)
    ------------------------------------------------------------ */
 :root {
-  --body-bg: #000000;        /* Academic black background */
-  --text-color: #f2f2f2;      /* Light text for readability */
-  --link-color: #FFB3E0;      /* Vibrant pastel pink for links */
-  --link-hover-color: #FF99D6; /* Slightly more intense pink on hover */
+  --body-bg: #000000;        /* Black background */
+  --text-color: #f2f2f2;      /* White text */
+  --link-color: #FFB3E0;      /* Pastel pink */
+  --link-hover-color: #FF99D6; /* Hover pink */
 
-  /* Headings in bright pastel hues */
-  --h1-color: #FFD9B3; /* Pastel peach */
-  --h2-color: #B3FFD8; /* Pastel mint aqua */
-  --h3-color: #B3E0FF; /* Light sky pastel blue */
-  --h4-color: #FFE0B3; /* Soft pastel banana */
-  --h5-color: #F0B3FF; /* Pastel lilac rose */
-  --h6-color: #B3FFB3; /* Pastel spring green */
+  /* Headings */
+  --h1-color: #FFD9B3; /* Peach */
+  --h2-color: #B3FFD8; /* Mint green */
+  --h3-color: #B3E0FF; /* Light blue */
+  --h4-color: #FFE0B3; /* Soft yellow */
+  --h5-color: #F0B3FF; /* Lilac pink */
+  --h6-color: #B3FFB3; /* Spring green */
 
+  /* Heading Sizes */
   --h1-font-size: 2.4em;
   --h2-font-size: 2em;
   --h3-font-size: 1.7em;
@@ -182,7 +123,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--text-color);
-  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif; /* Main text in G8Serif */
+  font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
   margin: 0;
   padding: var(--base-padding);
   line-height: var(--base-line-height);
@@ -193,19 +134,17 @@ a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
 a:hover {
   color: var(--link-hover-color);
   text-decoration: underline;
 }
 
-/* Bold and strong text inherit main text color */
 b, strong {
   color: var(--text-color);
 }
 
 /* ------------------------------------------------------------
-   Headings: Ysabeau for headings
+   Headings
    ------------------------------------------------------------ */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ysabeau', sans-serif;
@@ -246,45 +185,8 @@ h6 {
 }
 
 /* ------------------------------------------------------------
-   Chinese Text handled by LXGWWenKai automatically
+   Automatic CJK Handling
    ------------------------------------------------------------ */
 html, body {
   font-family: 'G8Serif', 'Ysabeau', 'LXGWWenKai', serif;
 }
-
-/* ------------------------------------------------------------
-   Additional Enhancements
-   ------------------------------------------------------------ */
-body, h1, h2, h3, h4, h5, h6 {
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.02em;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #444444;
-  margin: 2em 0;
-  opacity: 0.8;
-}
-
-ul, ol {
-  margin-left: 2em;
-}
-
-li > strong {
-  color: var(--text-color);
-}
-
-em, i {
-  font-style: italic;
-  color: var(--text-color);
-}
-
-a, h1, h2, h3, h4, h5, h6 {
-  transition: color 0.3s ease;
-}
-
-/* The final impression: A scholarly black background, modern headings in Ysabeau,
-   old-style G8Serif for main text, Chinese handled by LXGWWenKai. 
-   Bright pastel headings and link colors exude joy and optimism,
-   making it an unforgettable CV browsing experience. */
